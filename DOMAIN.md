@@ -1,15 +1,13 @@
-# Domain: georgesadeje
+# Live menu
 
-## Live URL
-**https://georgesadeje.netlify.app/**
+**https://dj-477.github.io/georgesadeje/**
 
-QR codes in this pack open that address.
+That is the public menu. QR codes in the owner pack open this address.
 
-## Custom domain (optional, owner pays)
-Buy **georgesadeje.com** (~€10–15/year) at Namecheap or Cloudflare, then:
+## Optional branded hostname
 
-1. Netlify → Site configuration → Domain management → Add custom domain `georgesadeje.com`
-2. Point DNS as Netlify shows (usually `georgesadeje.netlify.app` as CNAME, or their A records)
-3. Reprint QR if you want the short `.com` printed on paper
+1. Drop `georgesadeje-website.zip` on https://app.netlify.com/drop
+2. Rename the site to **georgesadeje** → https://georgesadeje.netlify.app
+3. Reprint the QR for the new URL
 
-Until the `.com` is bought, the Netlify URL is the permanent public menu.
+Buy **georgesadeje.com** later if the owner wants a .com, then attach it in Netlify or GitHub Pages.
