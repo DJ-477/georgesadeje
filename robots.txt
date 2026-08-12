@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://georgesadeje.netlify.app/sitemap.xml
+Sitemap: https://dj-477.github.io/georgesadeje/sitemap.xml

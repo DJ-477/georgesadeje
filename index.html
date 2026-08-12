@@ -34,8 +34,8 @@
   <meta name="geo.position" content="28.09411;-16.72506" />
   <meta name="ICBM" content="28.09411, -16.72506" />
   <meta name="keywords" content="George's Restaurant, Costa Adeje, El Madroñal, Adeje, Tenerife, Chinese restaurant, Mediterranean, pizza, paella, carta digital, georgesadeje" />
-  <link rel="canonical" href="https://georgesadeje.netlify.app/" id="canonical-link" />
-  <meta property="og:url" content="https://georgesadeje.netlify.app/" id="og-url" />
+  <link rel="canonical" href="https://dj-477.github.io/georgesadeje/" id="canonical-link" />
+  <meta property="og:url" content="https://dj-477.github.io/georgesadeje/" id="og-url" />
   <meta property="og:locale" content="en_GB" />
   <meta property="og:locale:alternate" content="es_ES" />
   <meta property="og:locale:alternate" content="de_DE" />
@@ -49,8 +49,8 @@
     "@type": "Restaurant",
     "name": "George's Restaurant",
     "alternateName": "George's Restaurante",
-    "image": "https://georgesadeje.netlify.app/assets/logo-on-black.png",
-    "url": "https://georgesadeje.netlify.app/",
+    "image": "https://dj-477.github.io/georgesadeje/assets/logo-on-black.png",
+    "url": "https://dj-477.github.io/georgesadeje/",
     "telephone": "+34922717613",
     "email": "Rest.georges13@gmail.com",
     "servesCuisine": ["Chinese", "Mediterranean", "Spanish", "Italian", "Asian"],
@@ -71,7 +71,7 @@
       "latitude": 28.09411,
       "longitude": -16.72506
     },
-    "hasMenu": "https://georgesadeje.netlify.app/#menu-root",
+    "hasMenu": "https://dj-477.github.io/georgesadeje/#menu-root",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -956,8 +956,18 @@
     const PHONE_HREF = "tel:+34922717613";
     const PHONE_LABEL = "+34 922 71 76 13";
     const EMAIL = "Rest.georges13@gmail.com";
-    const CANONICAL_HOST = "https://georgesadeje.netlify.app/";
-    const LIVE_URL = (typeof location !== "undefined" ? location.origin + "/" : "./");
+    const CANONICAL_HOST = "https://dj-477.github.io/georgesadeje/";
+    function siteRoot() {
+      try {
+        if (location.origin && !/127\.0\.0\.1|localhost/.test(location.origin)) {
+          const path = location.pathname.replace(/index\.html$/i, "");
+          const dir = path.endsWith("/") ? path : path.replace(/\/[^/]*$/, "/");
+          return location.origin + (dir || "/");
+        }
+      } catch (_) {}
+      return CANONICAL_HOST;
+    }
+    const LIVE_URL = (typeof location !== "undefined" ? siteRoot() : CANONICAL_HOST);
     const LANGS = ["en", "es", "de", "fr", "it", "ca"];
 
     const UI = {
@@ -1976,12 +1986,7 @@
     }
 
     function publicUrl() {
-      try {
-        if (location.origin && !/127\.0\.0\.1|localhost/.test(location.origin)) {
-          return location.origin + "/";
-        }
-      } catch (_) {}
-      return CANONICAL_HOST;
+      return siteRoot();
     }
 
     function showToast(msg) {

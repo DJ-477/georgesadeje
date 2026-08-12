@@ -1,4 +1,4 @@
-const CACHE = "georges-menu-v20260813b";
+const CACHE = "georges-menu-v20260813c";
 const PRECACHE = [
   "./",
   "./index.html",
