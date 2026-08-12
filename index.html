@@ -1,0 +1,2112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0808" />
+  <meta name="description" content="George's Restaurant, El Madroñal · Costa Adeje, Tenerife. Chinese & Mediterranean digital menu with prices in euros. Av. Kurt Konrad Mayer 18 · +34 922 71 76 13." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="George's Restaurant · Digital Menu · Costa Adeje" />
+  <meta property="og:description" content="Chinese & Mediterranean · El Madroñal, Costa Adeje · Open daily 12:00–00:00 · Prices in €" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/logo-on-black.png" />
+  <meta property="og:image:alt" content="George's Restaurant" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="George's Restaurant · Menu · Costa Adeje" />
+  <meta name="twitter:description" content="Chinese & Mediterranean digital menu · El Madroñal, Tenerife" />
+  <meta name="twitter:image" content="assets/logo-on-black.png" />
+  <meta name="format-detection" content="telephone=yes" />
+  <title>George's Restaurant · Menu · Costa Adeje</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/logo-mark.png?v=20260813" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/logo-mark.png?v=20260813" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preload" as="image" href="assets/logo-header.png?v=20260813" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="George's Menu" />
+  <meta name="application-name" content="George's Restaurant Menu" />
+  <meta name="geo.region" content="ES-CN" />
+  <meta name="geo.placename" content="El Madroñal, Costa Adeje, Tenerife" />
+  <meta name="geo.position" content="28.09411;-16.72506" />
+  <meta name="ICBM" content="28.09411, -16.72506" />
+  <meta name="keywords" content="George's Restaurant, Costa Adeje, El Madroñal, Adeje, Tenerife, Chinese restaurant, Mediterranean, pizza, paella, carta digital, georgesadeje" />
+  <link rel="canonical" href="https://georgesadeje.netlify.app/" id="canonical-link" />
+  <meta property="og:url" content="https://georgesadeje.netlify.app/" id="og-url" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta property="og:locale:alternate" content="de_DE" />
+  <meta property="og:locale:alternate" content="fr_FR" />
+  <meta property="og:locale:alternate" content="ca_ES" />
+  <meta property="og:locale:alternate" content="it_IT" />
+  <meta property="og:site_name" content="George's Restaurant Tenerife" />
+  <script type="application/ld+json" id="jsonld">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "George's Restaurant",
+    "alternateName": "George's Restaurante",
+    "image": "https://georgesadeje.netlify.app/assets/logo-on-black.png",
+    "url": "https://georgesadeje.netlify.app/",
+    "telephone": "+34922717613",
+    "email": "Rest.georges13@gmail.com",
+    "servesCuisine": ["Chinese", "Mediterranean", "Spanish", "Italian", "Asian"],
+    "priceRange": "€€",
+    "acceptsReservations": "True",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Credit Card",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Av. Kurt Konrad Mayer, 18, Edif. Valle de Izas",
+      "addressLocality": "Costa Adeje",
+      "addressRegion": "Santa Cruz de Tenerife",
+      "postalCode": "38670",
+      "addressCountry": "ES"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 28.09411,
+      "longitude": -16.72506
+    },
+    "hasMenu": "https://georgesadeje.netlify.app/#menu-root",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "12:00",
+        "closes": "00:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/georges.restaurante.tf",
+      "https://www.tripadvisor.com/Restaurant_Review-g662606-d8586457-Reviews-George_s-Costa_Adeje_Adeje_Tenerife_Canary_Islands.html"
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a0808;
+      --bg2: #110d0d;
+      --surface: #151010;
+      --red: #c41c18;
+      --red-hot: #e02420;
+      --red-soft: rgba(196, 28, 24, 0.14);
+      --gold: #d4af58;
+      --text: #f5f0ea;
+      --muted: #9e9188;
+      --line: rgba(245, 240, 234, 0.07);
+      --header-h: 64px;
+      --safe-t: env(safe-area-inset-top, 0px);
+      --safe-b: env(safe-area-inset-bottom, 0px);
+      --page-x: clamp(16px, 4.5vw, 28px);
+      --max: 720px;
+      --radius: 14px;
+      --veg: #7dcea0;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: "Outfit", system-ui, -apple-system, sans-serif;
+      background:
+        radial-gradient(1200px 480px at 50% -8%, rgba(196, 28, 24, 0.16), transparent 60%),
+        var(--bg);
+      color: var(--text);
+      min-height: 100dvh;
+      line-height: 1.45;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+    }
+    ::selection { background: rgba(196, 28, 24, 0.45); color: #fff; }
+    img { max-width: 100%; height: auto; display: block; }
+
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      min-height: calc(var(--header-h) + var(--safe-t));
+      padding: var(--safe-t) var(--page-x) 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: rgba(10, 8, 8, 0.92);
+      backdrop-filter: blur(20px) saturate(1.1);
+      -webkit-backdrop-filter: blur(20px) saturate(1.1);
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      padding: 12px 0;
+      min-width: 0;
+    }
+    .brand img {
+      height: 36px;
+      width: auto;
+      object-fit: contain;
+      object-position: left center;
+    }
+
+    .lang-bar {
+      display: flex;
+      align-items: center;
+      gap: 1px;
+      flex-shrink: 0;
+    }
+    .lang-bar button {
+      appearance: none;
+      border: 1px solid transparent;
+      background: transparent;
+      color: var(--muted);
+      font: 600 0.68rem/1 "Outfit", sans-serif;
+      letter-spacing: 0.08em;
+      padding: 8px 8px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: color .15s, background .15s, border-color .15s;
+    }
+    .lang-bar button:focus-visible {
+      outline: 2px solid var(--red-hot);
+      outline-offset: 2px;
+    }
+    .lang-bar button.active {
+      color: #fff;
+      background: var(--red-soft);
+      border-color: rgba(196, 28, 24, 0.45);
+    }
+    .sr-only {
+      position: absolute;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0, 0, 0, 0);
+      white-space: nowrap; border: 0;
+    }
+    .skip-link {
+      position: absolute;
+      left: -9999px; top: 0; z-index: 100;
+      background: var(--red); color: #fff;
+      padding: 10px 16px; font-weight: 600;
+      text-decoration: none; border-radius: 0 0 8px 0;
+    }
+    .skip-link:focus { left: 0; }
+
+    .kit-nav {
+      max-width: var(--max);
+      margin: 0 auto 10px;
+      padding: 0 var(--page-x);
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .kit-nav button {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--muted);
+      font: 600 0.78rem/1 "Outfit", sans-serif;
+      letter-spacing: 0.04em;
+      padding: 10px 16px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: color .15s, background .15s, border-color .15s;
+    }
+    .kit-nav button:focus-visible { outline: 2px solid var(--red-hot); outline-offset: 2px; }
+    .kit-nav button.active {
+      color: #fff;
+      background: var(--red-soft);
+      border-color: rgba(196, 28, 24, 0.5);
+    }
+    .kit-nav button .count {
+      margin-left: 6px;
+      font-weight: 500;
+      opacity: 0.7;
+      font-size: 0.7rem;
+    }
+
+    .cat-nav {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 var(--page-x) 4px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    .cat-nav::-webkit-scrollbar { display: none; }
+    .cat-nav a {
+      flex: 0 0 auto;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 500;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+    .cat-nav a:hover, .cat-nav a:focus-visible, .cat-nav a.active {
+      color: #fff;
+      border-color: rgba(196, 28, 24, 0.45);
+      background: var(--red-soft);
+      outline: none;
+    }
+
+    .hero {
+      text-align: center;
+      padding: clamp(28px, 6vw, 44px) var(--page-x) clamp(16px, 3.5vw, 24px);
+    }
+    .hero-logo {
+      width: min(300px, 72vw);
+      margin: 0 auto;
+      filter: drop-shadow(0 10px 32px rgba(196, 28, 24, 0.22));
+    }
+    .hero-tag {
+      margin-top: clamp(20px, 4.5vw, 26px);
+      font-size: 0.68rem;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold);
+      font-weight: 500;
+    }
+    .hero-rule {
+      width: 40px; height: 1.5px;
+      margin: 16px auto 0;
+      background: linear-gradient(90deg, transparent, var(--red), transparent);
+      border: 0;
+    }
+    .hero-lead {
+      margin: 14px auto 0;
+      max-width: 24rem;
+      color: var(--muted);
+      font-weight: 300;
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 18px;
+    }
+    .hero-cta a {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--text);
+      font: 600 0.78rem/1 "Outfit", sans-serif;
+      letter-spacing: 0.04em;
+      padding: 11px 16px;
+      border-radius: 999px;
+      text-decoration: none;
+    }
+    .hero-cta a.primary {
+      background: var(--red);
+      border-color: rgba(255,255,255,0.12);
+      color: #fff;
+    }
+    .hero-cta a:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 8px var(--page-x) clamp(32px, 8vw, 56px);
+    }
+
+    .section {
+      margin-top: 20px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.32);
+      scroll-margin-top: calc(var(--header-h) + var(--safe-t) + 56px);
+    }
+    .section:first-child { margin-top: 12px; }
+    .section-head {
+      padding: 18px 18px 14px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(196, 28, 24, 0.11), transparent);
+    }
+    .section-head h2 {
+      font-family: "Bebas Neue", Impact, sans-serif;
+      font-size: 1.5rem;
+      letter-spacing: 0.16em;
+      color: var(--red-hot);
+      line-height: 1.1;
+      font-weight: 400;
+    }
+    .section-head p {
+      margin-top: 6px;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 300;
+      letter-spacing: 0.02em;
+    }
+
+    .items { padding: 6px 0 8px; }
+    .item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      column-gap: 16px;
+      row-gap: 3px;
+      align-items: baseline;
+      padding: 12px 18px;
+      border-bottom: 1px solid var(--line);
+    }
+    .item:last-child { border-bottom: 0; }
+    .item .name {
+      font-weight: 500;
+      font-size: 0.94rem;
+      line-height: 1.35;
+      min-width: 0;
+    }
+    .item .num {
+      color: var(--gold);
+      font-weight: 600;
+      font-size: 0.76rem;
+      letter-spacing: 0.02em;
+      margin-right: 8px;
+      font-variant-numeric: tabular-nums;
+    }
+    .item .price {
+      font-weight: 600;
+      font-size: 0.9rem;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+      color: var(--text);
+      padding-top: 1px;
+    }
+    .item .desc {
+      grid-column: 1 / -1;
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 300;
+      line-height: 1.4;
+      padding-left: calc(0.76rem + 8px + 0.3ch);
+    }
+    .spicy {
+      display: inline-block;
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--red-hot);
+      margin-left: 8px;
+      vertical-align: middle;
+      box-shadow: 0 0 0 2px rgba(196, 28, 24, 0.22);
+    }
+    .veg {
+      display: inline-block;
+      margin-left: 6px;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      color: var(--veg);
+      border: 1px solid rgba(125, 206, 160, 0.4);
+      padding: 1px 5px;
+      border-radius: 4px;
+      vertical-align: middle;
+    }
+
+    footer {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 8px var(--page-x) calc(48px + var(--safe-b));
+      text-align: center;
+    }
+    footer .foot-logo {
+      width: min(200px, 55vw);
+      margin: 0 auto 20px;
+      opacity: 0.95;
+    }
+    .visit-card {
+      text-align: left;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px 20px;
+      margin: 8px auto 28px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.28);
+    }
+    .visit-card h2 {
+      font-family: "Bebas Neue", Impact, sans-serif;
+      letter-spacing: 0.14em;
+      color: var(--red-hot);
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+    .visit-card .about {
+      color: var(--muted);
+      font-weight: 300;
+      font-size: 0.9rem;
+      line-height: 1.55;
+      margin-bottom: 18px;
+    }
+    .footer-grid {
+      display: grid;
+      gap: 18px;
+      color: var(--muted);
+      font-weight: 300;
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .footer-grid strong {
+      display: block;
+      color: var(--gold);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .footer-grid a {
+      color: var(--text);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+    .footer-grid a:hover { color: var(--gold); border-bottom-color: rgba(212, 175, 88, 0.45); }
+    .map-wrap {
+      margin-top: 18px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      aspect-ratio: 16 / 10;
+      background: #0d0a0a;
+    }
+    .map-wrap iframe { width: 100%; height: 100%; border: 0; filter: saturate(0.85) contrast(1.05); }
+    .footer-links, .share-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 18px;
+    }
+    .footer-links { margin: 0 auto 20px; font-size: 0.8rem; }
+    .footer-links a { color: var(--muted); text-decoration: none; letter-spacing: 0.04em; }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-note {
+      font-size: 0.72rem;
+      color: rgba(245, 240, 234, 0.32);
+      line-height: 1.5;
+      max-width: 28rem;
+      margin: 0 auto;
+    }
+    .qr-block {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-top: 28px;
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+    }
+    .qr-block img {
+      width: 132px; height: 132px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: 8px;
+      box-shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
+    }
+    .footer-links a:focus-visible,
+    .footer-grid a:focus-visible,
+    .qr-block:focus-visible {
+      outline: 2px solid var(--gold);
+      outline-offset: 3px;
+    }
+
+    .tools {
+      max-width: var(--max);
+      margin: 0 auto 12px;
+      padding: 0 var(--page-x);
+      display: grid;
+      gap: 10px;
+    }
+    .search-wrap { position: relative; }
+    .search-wrap input {
+      width: 100%;
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--text);
+      font: 400 0.92rem/1.2 "Outfit", sans-serif;
+      padding: 12px 40px 12px 14px;
+      border-radius: 12px;
+      outline: none;
+    }
+    .search-wrap input::placeholder { color: rgba(158,145,136,0.75); }
+    .search-wrap input:focus {
+      border-color: rgba(196, 28, 24, 0.55);
+      box-shadow: 0 0 0 3px rgba(196, 28, 24, 0.15);
+    }
+    .search-wrap .clear-search {
+      position: absolute;
+      right: 8px; top: 50%;
+      transform: translateY(-50%);
+      appearance: none; border: 0;
+      background: transparent;
+      color: var(--muted);
+      font-size: 1.1rem;
+      width: 32px; height: 32px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: none;
+    }
+    .search-wrap.has-query .clear-search { display: grid; place-items: center; }
+
+    .status-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 8px 12px;
+    }
+    .open-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--muted);
+    }
+    .open-badge::before {
+      content: "";
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      background: #666;
+    }
+    .open-badge.is-open {
+      color: #b8f0c4;
+      border-color: rgba(70, 180, 100, 0.35);
+      background: rgba(40, 120, 60, 0.18);
+    }
+    .open-badge.is-open::before { background: #3dce66; box-shadow: 0 0 0 3px rgba(61,206,102,0.2); }
+    .open-badge.is-closed {
+      color: #f0b8b8;
+      border-color: rgba(196, 28, 24, 0.4);
+      background: rgba(196, 28, 24, 0.12);
+    }
+    .open-badge.is-closed::before { background: var(--red-hot); }
+    .open-badge.is-soon {
+      color: #f3d48a;
+      border-color: rgba(212, 175, 88, 0.4);
+      background: rgba(212, 175, 88, 0.12);
+    }
+    .open-badge.is-soon::before { background: var(--gold); }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 16px;
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+    .legend span { display: inline-flex; align-items: center; gap: 6px; }
+    .legend .spicy { margin: 0; }
+    .legend .veg { margin: 0; }
+
+    .empty-search {
+      text-align: center;
+      padding: 36px 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+      border: 1px dashed var(--line);
+      border-radius: var(--radius);
+      margin-top: 12px;
+      background: rgba(21,16,16,0.5);
+    }
+    .item.hit-match .name { color: #fff; }
+    .item.hit-match { background: rgba(196, 28, 24, 0.08); }
+
+    .fab-dock {
+      position: fixed;
+      right: max(12px, env(safe-area-inset-right));
+      bottom: max(14px, env(safe-area-inset-bottom));
+      z-index: 60;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-end;
+    }
+    .fab-dock a, .fab-dock button {
+      appearance: none;
+      border: 1px solid rgba(245,240,234,0.12);
+      background: rgba(21, 16, 16, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      color: var(--text);
+      width: 48px; height: 48px;
+      border-radius: 14px;
+      display: grid;
+      place-items: center;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      transition: transform .15s, border-color .15s, background .15s;
+    }
+    .fab-dock a:hover, .fab-dock button:hover,
+    .fab-dock a:focus-visible, .fab-dock button:focus-visible {
+      border-color: rgba(196,28,24,0.55);
+      background: rgba(196,28,24,0.22);
+      outline: none;
+      transform: translateY(-1px);
+    }
+    .fab-dock .fab-call {
+      background: var(--red);
+      border-color: rgba(255,255,255,0.12);
+      color: #fff;
+    }
+    .fab-dock svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .fab-dock .to-top { opacity: 0; pointer-events: none; transition: opacity .2s; }
+    .fab-dock .to-top.show { opacity: 1; pointer-events: auto; }
+
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: max(84px, calc(env(safe-area-inset-bottom) + 72px));
+      transform: translateX(-50%) translateY(12px);
+      background: rgba(21,16,16,0.96);
+      border: 1px solid rgba(212,175,88,0.35);
+      color: var(--text);
+      padding: 10px 16px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      z-index: 70;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .2s, transform .2s;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+      white-space: nowrap;
+    }
+    .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+    .share-bar { gap: 8px; margin: 0 auto 18px; }
+    .share-bar button, .share-bar a {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--muted);
+      font: 600 0.72rem/1 "Outfit", sans-serif;
+      letter-spacing: 0.05em;
+      padding: 10px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .share-bar button:hover, .share-bar a:hover,
+    .share-bar button:focus-visible, .share-bar a:focus-visible {
+      color: #fff;
+      border-color: rgba(196,28,24,0.45);
+      background: var(--red-soft);
+      outline: none;
+    }
+
+    .kit-nav.sticky-tools {
+      position: sticky;
+      top: calc(var(--header-h) + var(--safe-t));
+      z-index: 40;
+      background: rgba(10,8,8,0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-bottom: 0;
+    }
+
+    .photos {
+      max-width: var(--max);
+      margin: 0 auto 28px;
+      padding: 0;
+      text-align: left;
+    }
+    .photos h2 {
+      font-family: "Bebas Neue", Impact, sans-serif;
+      letter-spacing: 0.14em;
+      color: var(--red-hot);
+      font-size: 1.35rem;
+      font-weight: 400;
+      margin-bottom: 6px;
+    }
+    .photos .lead {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 300;
+      margin-bottom: 12px;
+    }
+    .photo-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+    .photo-grid a {
+      display: block;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: #0d0a0a;
+    }
+    .photo-grid img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      max-height: 280px;
+    }
+    @media (min-width: 640px) {
+      .photo-grid { grid-template-columns: 1fr 1fr; }
+      .photo-grid img { max-height: 220px; }
+    }
+
+    .kitchen-banner {
+      margin: 28px 0 8px;
+      font-size: 0.68rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      text-align: center;
+      font-weight: 600;
+    }
+
+    [hidden] { display: none !important; }
+
+    @media (max-width: 380px) {
+      .lang-bar button { padding: 7px 6px; font-size: 0.62rem; }
+    }
+    @media (min-width: 640px) {
+      .brand img { height: 40px; }
+      .item { padding: 13px 22px; column-gap: 24px; }
+      .section-head { padding: 20px 22px 16px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { transition: none !important; }
+    }
+    @media print {
+      .tools, .fab-dock, .toast, .share-bar, .kit-nav, .header, .lang-bar, .cat-nav, .qr-block, .footer-links, .hero-cta, .map-wrap { display: none !important; }
+      body { background: #fff; color: #111; }
+      .section { break-inside: avoid; box-shadow: none; border-color: #ddd; background: #fff; }
+      .section-head h2 { color: #c41c18; }
+      .item .num, footer .footer-grid strong { color: #888; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#menu-root">Skip to menu</a>
+  <header class="header">
+    <a class="brand" href="#top" aria-label="George's Restaurant">
+      <img src="assets/logo-header.png?v=20260813" alt="George's Restaurant" width="200" height="63" />
+    </a>
+    <nav class="lang-bar" aria-label="Language">
+      <button type="button" data-lang="en" class="active" aria-pressed="true">EN</button>
+      <button type="button" data-lang="es" aria-pressed="false">ES</button>
+      <button type="button" data-lang="de" aria-pressed="false">DE</button>
+      <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+      <button type="button" data-lang="it" aria-pressed="false">IT</button>
+      <button type="button" data-lang="ca" aria-pressed="false">CA</button>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <h1 class="sr-only">George's Restaurant · El Madroñal, Costa Adeje</h1>
+    <img class="hero-logo" src="assets/logo-header.png?v=20260813" alt="" width="300" height="94" />
+    <p class="hero-tag" data-i18n="heroSub">Chinese &amp; Mediterranean · Costa Adeje</p>
+    <hr class="hero-rule" />
+    <p class="hero-lead" data-i18n="heroText">Digital menu · Prices in euros · Allergens on request</p>
+    <div class="hero-cta">
+      <a class="primary" href="#menu-root" data-i18n="seeMenu">See the menu</a>
+      <a href="https://wa.me/34922717613?text=Hola%20George%27s%20%C2%B7%20Reservation%20/%20Reserva" target="_blank" rel="noopener noreferrer" data-i18n="reserveBtn">Reserve a table</a>
+      <a href="tel:+34922717613" data-i18n="callLink">Call</a>
+    </div>
+  </section>
+
+  <div class="tools">
+    <div class="status-row">
+      <span class="open-badge" id="open-badge">—</span>
+      <div class="legend">
+        <span><i class="spicy" aria-hidden="true"></i> <span data-i18n="spicy">Spicy</span></span>
+        <span><span class="veg" aria-hidden="true">V</span> <span data-i18n="veg">Vegetarian</span></span>
+        <span data-i18n="pricesNote">Prices in €</span>
+      </div>
+    </div>
+    <div class="search-wrap" id="search-wrap">
+      <label class="sr-only" for="menu-search" data-i18n="searchLabel">Search menu</label>
+      <input type="search" id="menu-search" enterkeyhint="search" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Search dishes or numbers…" />
+      <button type="button" class="clear-search" id="clear-search" aria-label="Clear search">×</button>
+    </div>
+  </div>
+
+  <nav class="kit-nav sticky-tools" id="kit-nav" aria-label="Kitchen">
+    <button type="button" data-kit="all" class="active">All menus</button>
+    <button type="button" data-kit="asian">Asian</button>
+    <button type="button" data-kit="med">Mediterranean</button>
+  </nav>
+  <nav class="cat-nav" id="cat-nav" aria-label="Menu sections"></nav>
+  <main id="menu-root" aria-label="Menu"></main>
+  <div class="empty-search" id="empty-search" hidden data-i18n="noResults">No dishes match your search.</div>
+
+  <footer id="visit">
+    <section class="photos" id="photos">
+      <h2 data-i18n="photosTitle">Printed menu</h2>
+      <p class="lead" data-i18n="photosLead">Current 2026 pages — tap to open full size. Ask staff if a dish is not listed above.</p>
+      <div class="photo-grid">
+        <a href="assets/menu_2026/image-e138dc25-414c-4037-b8a1-122b35e18ba7.jpg" target="_blank" rel="noopener"><img src="assets/menu_2026/image-e138dc25-414c-4037-b8a1-122b35e18ba7.jpg" alt="Asian menu — dim sum, starters, rice" loading="lazy" /></a>
+        <a href="assets/menu_2026/image-38e81ad4-4c96-4304-a17d-3956f386c98a.jpg" target="_blank" rel="noopener"><img src="assets/menu_2026/image-38e81ad4-4c96-4304-a17d-3956f386c98a.jpg" alt="Asian menu — noodles, pork, chicken" loading="lazy" /></a>
+        <a href="assets/menu_2026/image-77c8dafa-5900-4075-8943-c093ad34e7ba.jpg" target="_blank" rel="noopener"><img src="assets/menu_2026/image-77c8dafa-5900-4075-8943-c093ad34e7ba.jpg" alt="Asian menu — beef, prawns, duck" loading="lazy" /></a>
+        <a href="assets/menu_2026/image-1b124762-8c14-411d-b465-dda9429f1e98.jpg" target="_blank" rel="noopener"><img src="assets/menu_2026/image-1b124762-8c14-411d-b465-dda9429f1e98.jpg" alt="Asian menu — sauces, specials, vegetables, desserts" loading="lazy" /></a>
+        <a href="assets/menu_2026/image-7382e42f-2e2e-497f-b05a-fecdab324b3f.jpg" target="_blank" rel="noopener"><img src="assets/menu_2026/image-7382e42f-2e2e-497f-b05a-fecdab324b3f.jpg" alt="Mediterranean menu — bread, soups, starters" loading="lazy" /></a>
+        <a href="assets/menu_2026/image-f23187d4-c459-426e-a0a0-975006fc2397.jpg" target="_blank" rel="noopener"><img src="assets/menu_2026/image-f23187d4-c459-426e-a0a0-975006fc2397.jpg" alt="Mediterranean menu — salads, pasta, paella" loading="lazy" /></a>
+        <a href="assets/menu_2026/image-d7a5f2d1-7e5b-45a4-ac75-933575147b07.jpg" target="_blank" rel="noopener"><img src="assets/menu_2026/image-d7a5f2d1-7e5b-45a4-ac75-933575147b07.jpg" alt="Mediterranean menu — pizza, extras, kids" loading="lazy" /></a>
+        <a href="assets/menu_2026/image-5934ce10-cb8c-4a8b-9f77-e2aa0c64a769.jpg" target="_blank" rel="noopener"><img src="assets/menu_2026/image-5934ce10-cb8c-4a8b-9f77-e2aa0c64a769.jpg" alt="Allergen information table" loading="lazy" /></a>
+      </div>
+    </section>
+
+    <div class="visit-card">
+      <img class="foot-logo" src="assets/logo-header.png?v=20260813" alt="" width="200" height="63" />
+      <h2 data-i18n="visitTitle">Visit us</h2>
+      <p class="about" data-i18n="aboutText">Two kitchens under one roof in El Madroñal: Cantonese and Sichuan classics next to pizza, pasta, paella and Spanish starters. Terrace, bar and table service. Reservations by phone or WhatsApp.</p>
+      <div class="footer-grid">
+        <div>
+          <strong data-i18n="fAddress">Address</strong>
+          <span data-i18n="address"><a href="https://maps.google.com/?q=George%27s+Restaurant+Av.+Kurt+Konrad+Mayer+18+Costa+Adeje" target="_blank" rel="noopener noreferrer">Av. Kurt Konrad Mayer, 18<br>Edif. Valle de Izas · El Madroñal<br>38670 Costa Adeje, Tenerife</a></span>
+        </div>
+        <div>
+          <strong data-i18n="fPhone">Phone</strong>
+          <span data-i18n="phone"><a href="tel:+34922717613">+34 922 71 76 13</a></span>
+        </div>
+        <div>
+          <strong data-i18n="fEmail">Email</strong>
+          <span><a href="mailto:Rest.georges13@gmail.com">Rest.georges13@gmail.com</a></span>
+        </div>
+        <div>
+          <strong data-i18n="fHours">Hours</strong>
+          <span data-i18n="hours">Daily 12:00–00:00<br>Canary Islands time</span>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <iframe title="George's Restaurant on Google Maps" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=George%27s%20Restaurant%20Av.%20Kurt%20Konrad%20Mayer%2018%20Costa%20Adeje&z=16&output=embed"></iframe>
+      </div>
+    </div>
+
+    <div class="share-bar">
+      <button type="button" id="btn-share" data-i18n="shareBtn">Share menu</button>
+      <button type="button" id="btn-copy" data-i18n="copyBtn">Copy link</button>
+      <a id="wa-link" href="https://wa.me/34922717613" target="_blank" rel="noopener noreferrer" data-i18n="waLink">WhatsApp</a>
+    </div>
+    <div class="footer-links">
+      <a href="https://maps.google.com/?q=George%27s+Restaurant+Av.+Kurt+Konrad+Mayer+18+Costa+Adeje" target="_blank" rel="noopener noreferrer" data-i18n="mapLink">Open in Maps</a>
+      <a href="https://www.google.com/maps/dir/?api=1&destination=George%27s+Restaurant+Av.+Kurt+Konrad+Mayer+18+Costa+Adeje" target="_blank" rel="noopener noreferrer" data-i18n="dirLink">Directions</a>
+      <a href="https://www.instagram.com/georges.restaurante.tf" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.tripadvisor.com/Restaurant_Review-g662606-d8586457-Reviews-George_s-Costa_Adeje_Adeje_Tenerife_Canary_Islands.html" target="_blank" rel="noopener noreferrer">Tripadvisor</a>
+      <a href="tel:+34922717613" data-i18n="callLink">Call</a>
+    </div>
+    <p class="footer-note" data-i18n="disclaimer">Menu &amp; prices may change · Please ask staff about allergens, spice and vegetarian options. Some classic dishes may include meat — always confirm with the kitchen.</p>
+    <a class="qr-block" id="qr-share" href="./" target="_blank" rel="noopener noreferrer">
+      <img src="assets/qr-georges-menu.png?v=20260813brand" alt="QR code — open digital menu" width="132" height="132" />
+      <span data-i18n="qrHint">Scan · Share this menu</span>
+    </a>
+  </footer>
+
+  <div class="fab-dock" aria-label="Quick actions">
+    <button type="button" class="to-top" id="to-top" title="Back to top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </button>
+    <a id="fab-wa" href="https://wa.me/34922717613" title="WhatsApp" aria-label="WhatsApp reservation" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5A8.5 8.5 0 1 1 11 3.1M21 3l-9 9M16 3h5v5"/></svg>
+    </a>
+    <button type="button" id="fab-share" title="Share" aria-label="Share menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="19" r="2.5"/><path d="M8.5 13.2l7 4M8.5 10.8l7-4"/></svg>
+    </button>
+    <a class="fab-call" href="tel:+34922717613" title="Call" aria-label="Call restaurant">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.6a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7A2 2 0 0 1 22 16.9z"/></svg>
+    </a>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div style="max-width:720px;margin:0 auto;padding:1.5rem;color:#9e9188;text-align:center">
+      <p>Enable JavaScript for the full multilingual menu.</p>
+      <p>Av. Kurt Konrad Mayer, 18 · Costa Adeje · Daily 12:00–00:00</p>
+      <p><a href="tel:+34922717613" style="color:#f5f0ea">+34 922 71 76 13</a> · <a href="mailto:Rest.georges13@gmail.com" style="color:#f5f0ea">Rest.georges13@gmail.com</a></p>
+      <p><a href="assets/menu_2026/image-e138dc25-414c-4037-b8a1-122b35e18ba7.jpg" style="color:#d4af58">Open printed menu photos</a></p>
+    </div>
+  </noscript>
+
+  <script>
+    const MAPS =
+      "https://maps.google.com/?q=George%27s+Restaurant+Av.+Kurt+Konrad+Mayer+18+Costa+Adeje";
+    const PHONE_HREF = "tel:+34922717613";
+    const PHONE_LABEL = "+34 922 71 76 13";
+    const EMAIL = "Rest.georges13@gmail.com";
+    const CANONICAL_HOST = "https://georgesadeje.netlify.app/";
+    const LIVE_URL = (typeof location !== "undefined" ? location.origin + "/" : "./");
+    const LANGS = ["en", "es", "de", "fr", "it", "ca"];
+
+    const UI = {
+      en: {
+        heroSub: "Chinese & Mediterranean · El Madroñal, Costa Adeje",
+        heroText: "Digital menu · Prices in euros · Allergens on request",
+        fAddress: "Address", fPhone: "Phone", fHours: "Hours", fEmail: "Email",
+        address: `<a href="${MAPS}" target="_blank" rel="noopener noreferrer">Av. Kurt Konrad Mayer, 18<br>Edif. Valle de Izas · El Madroñal<br>38670 Costa Adeje, Tenerife, Spain</a>`,
+        phone: `<a href="${PHONE_HREF}">${PHONE_LABEL}</a>`,
+        hours: "Daily 12:00–00:00<br>Canary Islands time",
+        disclaimer: "Menu & prices may change · Ask staff about allergens, spice and vegetarian options. Some classic dishes may include meat — always confirm with the kitchen.",
+        qrHint: "Scan · Share this menu",
+        mapLink: "Open in Maps", callLink: "Call", spicy: "Spicy", veg: "Vegetarian",
+        skip: "Skip to menu", kitAll: "All menus", kitAsian: "Asian", kitMed: "Mediterranean",
+        searchPh: "Search dishes or numbers…", searchLabel: "Search menu",
+        noResults: "No dishes match your search.",
+        openNow: "Open now", closedNow: "Closed now", closesSoon: "Closes at midnight",
+        opensAt: "Opens at 12:00", pricesNote: "Prices in €",
+        shareBtn: "Share menu", copyBtn: "Copy link", copied: "Link copied",
+        shareTitle: "George's Restaurant menu",
+        shareText: "Digital menu · George's Restaurant · El Madroñal, Costa Adeje",
+        waLink: "WhatsApp", dirLink: "Directions", backTop: "Top",
+        seeMenu: "See the menu", reserveBtn: "Reserve a table",
+        visitTitle: "Visit us",
+        aboutText: "Two kitchens under one roof in El Madroñal: Cantonese and Sichuan classics next to pizza, pasta, paella and Spanish starters. Terrace, bar and table service. Reservations by phone or WhatsApp.",
+        photosTitle: "Printed menu",
+        photosLead: "Current 2026 pages — tap to open full size. Ask staff if a dish is not listed above.",
+        bannerAsian: "Asian kitchen", bannerMed: "Mediterranean kitchen",
+      },
+      es: {
+        heroSub: "China y mediterránea · El Madroñal, Costa Adeje",
+        heroText: "Carta digital · Precios en euros · Alérgenos bajo petición",
+        fAddress: "Dirección", fPhone: "Teléfono", fHours: "Horario", fEmail: "Correo",
+        address: `<a href="${MAPS}" target="_blank" rel="noopener noreferrer">Av. Kurt Konrad Mayer, 18<br>Edif. Valle de Izas · El Madroñal<br>38670 Costa Adeje, Tenerife, España</a>`,
+        phone: `<a href="${PHONE_HREF}">${PHONE_LABEL}</a>`,
+        hours: "Todos los días 12:00–00:00<br>Hora de Canarias",
+        disclaimer: "Carta y precios sujetos a cambios · Consulte alérgenos, picante y opciones vegetarianas. Algunos platos clásicos pueden llevar carne — confirme en cocina.",
+        qrHint: "Escanea · Comparte la carta",
+        mapLink: "Abrir en Maps", callLink: "Llamar", spicy: "Picante", veg: "Vegetariano",
+        skip: "Ir al menú", kitAll: "Toda la carta", kitAsian: "Asiática", kitMed: "Mediterránea",
+        searchPh: "Buscar platos o números…", searchLabel: "Buscar en la carta",
+        noResults: "Ningún plato coincide con la búsqueda.",
+        openNow: "Abierto ahora", closedNow: "Cerrado ahora", closesSoon: "Cierra a medianoche",
+        opensAt: "Abre a las 12:00", pricesNote: "Precios en €",
+        shareBtn: "Compartir carta", copyBtn: "Copiar enlace", copied: "Enlace copiado",
+        shareTitle: "Carta de George's Restaurant",
+        shareText: "Carta digital · George's Restaurant · El Madroñal, Costa Adeje",
+        waLink: "WhatsApp", dirLink: "Cómo llegar", backTop: "Arriba",
+        seeMenu: "Ver la carta", reserveBtn: "Reservar mesa",
+        visitTitle: "Visítanos",
+        aboutText: "Dos cocinas en El Madroñal: clásicos cantoneses y sichuaneses junto a pizza, pasta, paella y entrantes españoles. Terraza, barra y servicio en mesa. Reservas por teléfono o WhatsApp.",
+        photosTitle: "Carta impresa",
+        photosLead: "Páginas actuales 2026 — toca para ampliar. Pregunte al personal si falta algún plato.",
+        bannerAsian: "Cocina asiática", bannerMed: "Cocina mediterránea",
+      },
+      de: {
+        heroSub: "Chinesisch & Mediterran · El Madroñal, Costa Adeje",
+        heroText: "Digitale Speisekarte · Preise in Euro · Allergene auf Anfrage",
+        fAddress: "Adresse", fPhone: "Telefon", fHours: "Öffnungszeiten", fEmail: "E-Mail",
+        address: `<a href="${MAPS}" target="_blank" rel="noopener noreferrer">Av. Kurt Konrad Mayer, 18<br>Edif. Valle de Izas · El Madroñal<br>38670 Costa Adeje, Teneriffa, Spanien</a>`,
+        phone: `<a href="${PHONE_HREF}">${PHONE_LABEL}</a>`,
+        hours: "Täglich 12:00–00:00<br>Kanarische Zeit",
+        disclaimer: "Karte & Preise können sich ändern · Allergene, Schärfe und vegetarische Optionen erfragen. Manche Klassiker enthalten Fleisch — bitte in der Küche nachfragen.",
+        qrHint: "Scannen · Menü teilen",
+        mapLink: "In Maps öffnen", callLink: "Anrufen", spicy: "Scharf", veg: "Vegetarisch",
+        skip: "Zum Menü", kitAll: "Alles", kitAsian: "Asiatisch", kitMed: "Mediterran",
+        searchPh: "Gerichte oder Nummern suchen…", searchLabel: "Menü durchsuchen",
+        noResults: "Keine Gerichte gefunden.",
+        openNow: "Jetzt geöffnet", closedNow: "Jetzt geschlossen", closesSoon: "Schließt um Mitternacht",
+        opensAt: "Öffnet um 12:00", pricesNote: "Preise in €",
+        shareBtn: "Menü teilen", copyBtn: "Link kopieren", copied: "Link kopiert",
+        shareTitle: "George's Restaurant Speisekarte",
+        shareText: "Digitale Speisekarte · George's Restaurant · El Madroñal",
+        waLink: "WhatsApp", dirLink: "Route", backTop: "Nach oben",
+        seeMenu: "Zur Karte", reserveBtn: "Tisch reservieren",
+        visitTitle: "Besuchen Sie uns",
+        aboutText: "Zwei Küchen in El Madroñal: kantonesische und Sichuan-Klassiker neben Pizza, Pasta, Paella und spanischen Vorspeisen. Terrasse, Bar, Tischservice. Reservierung per Telefon oder WhatsApp.",
+        photosTitle: "Gedruckte Karte",
+        photosLead: "Aktuelle Seiten 2026 — antippen zum Vergrößern.",
+        bannerAsian: "Asiatische Küche", bannerMed: "Mediterrane Küche",
+      },
+      fr: {
+        heroSub: "Chinoise & méditerranéenne · El Madroñal, Costa Adeje",
+        heroText: "Carte digitale · Prix en euros · Allergènes sur demande",
+        fAddress: "Adresse", fPhone: "Téléphone", fHours: "Horaires", fEmail: "E-mail",
+        address: `<a href="${MAPS}" target="_blank" rel="noopener noreferrer">Av. Kurt Konrad Mayer, 18<br>Edif. Valle de Izas · El Madroñal<br>38670 Costa Adeje, Tenerife, Espagne</a>`,
+        phone: `<a href="${PHONE_HREF}">${PHONE_LABEL}</a>`,
+        hours: "Tous les jours 12:00–00:00<br>Heure des Canaries",
+        disclaimer: "Carte et prix susceptibles de changer · Allergènes, piquant et options végétariennes sur demande. Certains plats classiques peuvent contenir de la viande.",
+        qrHint: "Scanner · Partager la carte",
+        mapLink: "Ouvrir dans Maps", callLink: "Appeler", spicy: "Épicé", veg: "Végétarien",
+        skip: "Aller au menu", kitAll: "Toute la carte", kitAsian: "Asiatique", kitMed: "Méditerranéenne",
+        searchPh: "Rechercher plats ou numéros…", searchLabel: "Rechercher dans la carte",
+        noResults: "Aucun plat ne correspond.",
+        openNow: "Ouvert maintenant", closedNow: "Fermé maintenant", closesSoon: "Ferme à minuit",
+        opensAt: "Ouvre à 12:00", pricesNote: "Prix en €",
+        shareBtn: "Partager la carte", copyBtn: "Copier le lien", copied: "Lien copié",
+        shareTitle: "Carte George's Restaurant",
+        shareText: "Carte digitale · George's Restaurant · El Madroñal",
+        waLink: "WhatsApp", dirLink: "Itinéraire", backTop: "Haut",
+        seeMenu: "Voir la carte", reserveBtn: "Réserver une table",
+        visitTitle: "Nous trouver",
+        aboutText: "Deux cuisines à El Madroñal : classiques cantonais et Sichuan à côté des pizzas, pâtes, paellas et tapas. Terrasse, bar, service à table. Réservation par téléphone ou WhatsApp.",
+        photosTitle: "Carte imprimée",
+        photosLead: "Pages 2026 — touchez pour agrandir.",
+        bannerAsian: "Cuisine asiatique", bannerMed: "Cuisine méditerranéenne",
+      },
+      it: {
+        heroSub: "Cinese e mediterranea · El Madroñal, Costa Adeje",
+        heroText: "Menu digitale · Prezzi in euro · Allergeni su richiesta",
+        fAddress: "Indirizzo", fPhone: "Telefono", fHours: "Orari", fEmail: "Email",
+        address: `<a href="${MAPS}" target="_blank" rel="noopener noreferrer">Av. Kurt Konrad Mayer, 18<br>Edif. Valle de Izas · El Madroñal<br>38670 Costa Adeje, Tenerife, Spagna</a>`,
+        phone: `<a href="${PHONE_HREF}">${PHONE_LABEL}</a>`,
+        hours: "Tutti i giorni 12:00–00:00<br>Ora delle Canarie",
+        disclaimer: "Menu e prezzi possono cambiare · Chiedete allergeni, piccante e opzioni vegetariane. Alcuni classici possono contenere carne — confermate in cucina.",
+        qrHint: "Scansiona · Condividi il menu",
+        mapLink: "Apri in Maps", callLink: "Chiama", spicy: "Piccante", veg: "Vegetariano",
+        skip: "Vai al menu", kitAll: "Tutto il menu", kitAsian: "Asiatica", kitMed: "Mediterranea",
+        searchPh: "Cerca piatti o numeri…", searchLabel: "Cerca nel menu",
+        noResults: "Nessun piatto corrisponde.",
+        openNow: "Aperto ora", closedNow: "Chiuso ora", closesSoon: "Chiude a mezzanotte",
+        opensAt: "Apre alle 12:00", pricesNote: "Prezzi in €",
+        shareBtn: "Condividi menu", copyBtn: "Copia link", copied: "Link copiato",
+        shareTitle: "Menu di George's Restaurant",
+        shareText: "Menu digitale · George's Restaurant · El Madroñal, Costa Adeje",
+        waLink: "WhatsApp", dirLink: "Indicazioni", backTop: "Su",
+        seeMenu: "Vedi il menu", reserveBtn: "Prenota un tavolo",
+        visitTitle: "Vieni a trovarci",
+        aboutText: "Due cucine a El Madroñal: classici cantonesi e Sichuan accanto a pizza, pasta, paella e antipasti spagnoli. Terrazza, bar e servizio al tavolo. Prenotazioni per telefono o WhatsApp.",
+        photosTitle: "Menu stampato",
+        photosLead: "Pagine 2026 — tocca per ingrandire. Chiedi allo staff se manca un piatto.",
+        bannerAsian: "Cucina asiatica", bannerMed: "Cucina mediterranea",
+      },
+      ca: {
+        heroSub: "Xinesa i mediterrània · El Madroñal, Costa Adeje",
+        heroText: "Carta digital · Preus en euros · Al·lèrgens sota petició",
+        fAddress: "Adreça", fPhone: "Telèfon", fHours: "Horari", fEmail: "Correu",
+        address: `<a href="${MAPS}" target="_blank" rel="noopener noreferrer">Av. Kurt Konrad Mayer, 18<br>Edif. Valle de Izas · El Madroñal<br>38670 Costa Adeje, Tenerife, Espanya</a>`,
+        phone: `<a href="${PHONE_HREF}">${PHONE_LABEL}</a>`,
+        hours: "Tots els dies 12:00–00:00<br>Hora de Canàries",
+        disclaimer: "Carta i preus subjectes a canvis · Consulteu al·lèrgens, picant i opcions vegetarianes.",
+        qrHint: "Escaneja · Comparteix la carta",
+        mapLink: "Obrir a Maps", callLink: "Trucar", spicy: "Picant", veg: "Vegetarià",
+        skip: "Anar al menú", kitAll: "Tota la carta", kitAsian: "Asiàtica", kitMed: "Mediterrània",
+        searchPh: "Cercar plats o números…", searchLabel: "Cercar a la carta",
+        noResults: "Cap plat no coincideix.",
+        openNow: "Obert ara", closedNow: "Tancat ara", closesSoon: "Tanca a mitjanit",
+        opensAt: "Obre a les 12:00", pricesNote: "Preus en €",
+        shareBtn: "Compartir carta", copyBtn: "Copiar enllaç", copied: "Enllaç copiat",
+        shareTitle: "Carta de George's Restaurant",
+        shareText: "Carta digital · George's Restaurant · El Madroñal",
+        waLink: "WhatsApp", dirLink: "Com arribar", backTop: "Amunt",
+        seeMenu: "Veure la carta", reserveBtn: "Reservar taula",
+        visitTitle: "Visiteu-nos",
+        aboutText: "Dues cuines a El Madroñal: clàssics cantonesos i sichuanesos amb pizza, pasta, paella i entrants espanyols. Reserva per telèfon o WhatsApp.",
+        photosTitle: "Carta impresa",
+        photosLead: "Pàgines 2026 — toqueu per ampliar.",
+        bannerAsian: "Cuina asiàtica", bannerMed: "Cuina mediterrània",
+      },
+    };
+
+    const MENU = [
+      {
+        id: "dimsum",
+        kitchen: "asian",
+        title: { en: "Dim Sum", es: "Dim Sum", de: "Dim Sum", fr: "Dim Sum", ca: "Dim Sum" },
+        note: { en: "All 6,25 €", es: "Todos 6,25 €", de: "Alle 6,25 €", fr: "Tous 6,25 €", ca: "Tots 6,25 €" },
+        items: [
+          { n: 1, p: "6,25", en: "Shia Chiao", es: "Shia Chiao", de: "Shia Chiao", fr: "Shia Chiao", ca: "Shia Chiao" },
+          { n: 2, p: "6,25", en: "Siu Mai", es: "Siu Mai", de: "Siu Mai", fr: "Siu Mai", ca: "Siu Mai" },
+          { n: 3, p: "6,25", en: "Chicken gyoza", es: "Gyoza de pollo", de: "Hähnchen-Gyoza", fr: "Gyoza au poulet", ca: "Gyoza de pollastre" },
+          { n: 4, p: "6,25", en: "Vegetable gyoza", es: "Gyoza de verduras", de: "Gemüse-Gyoza", fr: "Gyoza aux légumes", ca: "Gyoza de verdures" },
+        ],
+      },
+      {
+        id: "starters",
+        kitchen: "asian",
+        title: { en: "Starters", es: "Entrantes", de: "Vorspeisen", fr: "Entrées", ca: "Entrants" },
+        items: [
+          { n: 5, p: "5,80", spicy: 1, en: "Hot & sour soup", es: "Sopa agripicante", de: "Scharf-saure Suppe", fr: "Soupe aigre-piquante", ca: "Sopa agripicant" },
+          { n: 6, p: "5,80", en: "Chicken corn soup", es: "Sopa de maíz con pollo", de: "Maissuppe mit Hühnchen", fr: "Soupe maïs-poulet", ca: "Sopa de blat de moro amb pollastre" },
+          { n: 7, p: "6,40", en: "Wonton soup", es: "Sopa de wantán", de: "Wan-Tun-Suppe", fr: "Soupe de wantans", ca: "Sopa de wantan" },
+          { n: 8, p: "8,50", en: "Chinese salad", es: "Ensalada china", de: "Chinesischer Salat", fr: "Salade chinoise", ca: "Amanida xinesa" },
+          { n: 9, p: "3,50", en: "Spring roll", es: "Rollo de primavera", de: "Frühlingsrolle", fr: "Rouleau de printemps", ca: "Rotllo de primavera" },
+          { n: 10, p: "3,50", en: "Vegetable roll", es: "Rollo de verduras", de: "Gemüseröllchen", fr: "Rouleau de légumes", ca: "Rotllo de verdures" },
+          { n: 11, p: "22,00", en: "Crispy duck", es: "Pato crujiente", de: "Knusprige Ente", fr: "Canard croustillant", ca: "Ànec cruixent" },
+          { n: 12, p: "3,00", en: "Prawn crackers", es: "Crackers de gambas", de: "Garnelenbrot", fr: "Chips de crevettes", ca: "Cruixents de gambes" },
+          { n: 13, p: "13,50", en: "Fried prawns", es: "Gambas fritas", de: "Gebratene Garnelen", fr: "Crevettes frites", ca: "Gambes fregides" },
+          { n: 14, p: "8,50", en: "Prawn toast", es: "Tosta de gambas", de: "Garnelentoast", fr: "Toast aux crevettes", ca: "Torrada de gambes" },
+          { n: 15, p: "11,00", en: 'Spare ribs with "Jindu" sauce', es: 'Costillas con salsa "Jindu"', de: 'Rippchen mit "Jindu"-Sauce', fr: 'Travers sauce "Jindu"', ca: 'Costelles amb salsa "Jindu"' },
+          { n: 16, p: "11,00", en: "Salt & pepper spare ribs", es: "Costillas a la sal y pimienta", de: "Salz- und Pfefferrippchen", fr: "Travers sel & poivre", ca: "Costelles sal i pebre" },
+          { n: 17, p: "7,50", en: "Fried chicken wings", es: "Alitas de pollo fritas", de: "Gebratene Hähnchenflügel", fr: "Ailes de poulet frites", ca: "Aletes de pollastre fregides" },
+          { n: 18, p: "8,50", en: "Salt & pepper wings", es: "Alitas a la sal y pimienta", de: "Salz- und Pfefferflügel", fr: "Ailes sel & poivre", ca: "Aletes sal i pebre" },
+          { n: 19, p: "4,00", en: "French fries", es: "Patatas fritas", de: "Pommes Frites", fr: "Frites", ca: "Patates fregides" },
+          { n: 20, p: "6,50", en: "Salt & pepper fries", es: "Patatas a la sal y pimienta", de: "Salz- und Pfefferkartoffeln", fr: "Frites sel & poivre", ca: "Patates sal i pebre" },
+          { n: 21, p: "6,60", en: "Fried wonton", es: "Wantán frito", de: "Gebratener Wan-Tun", fr: "Wantans frits", ca: "Wantan fregit" },
+          { n: 22, p: "5,60", en: "Chicken samosa (4 pcs)", es: "Samosa de pollo (4 uds)", de: "Chicken Samosa (4 Stück)", fr: "Samosas poulet (4 pcs)", ca: "Samosa de pollastre (4 u.)" },
+        ],
+      },
+      {
+        id: "rice",
+        kitchen: "asian",
+        title: { en: "Rice", es: "Arroz", de: "Reis", fr: "Riz", ca: "Arròs" },
+        items: [
+          { n: 23, p: "4,00", en: "White rice", es: "Arroz blanco", de: "Weißer Reis", fr: "Riz blanc", ca: "Arròs blanc" },
+          { n: 24, p: "6,50", en: "Rice with vegetables", es: "Arroz con verduras", de: "Reis mit Gemüse", fr: "Riz aux légumes", ca: "Arròs amb verdures" },
+          { n: 25, p: "5,20", en: "Egg fried rice", es: "Arroz frito con huevo", de: "Reis mit Eiern", fr: "Riz aux œufs", ca: "Arròs amb ous" },
+          { n: 26, p: "6,60", en: "Special fried rice (3 delicacies)", es: "Arroz frito 3 delicias", de: "Gebratener Reis 3 Köstlichkeiten", fr: "Riz frit 3 délices", ca: "Arròs fregit 3 delícies" },
+          { n: 27, p: "7,50", en: "Chicken fried rice", es: "Arroz frito con pollo", de: "Gebratener Reis mit Hühnchen", fr: "Riz frit au poulet", ca: "Arròs fregit amb pollastre" },
+          { n: 28, p: "8,50", en: "Beef fried rice", es: "Arroz frito con ternera", de: "Gebratener Reis mit Rindfleisch", fr: "Riz frit au bœuf", ca: "Arròs fregit amb vedella" },
+          { n: 29, p: "9,50", en: "Prawn fried rice", es: "Arroz frito con gambas", de: "Gebratener Reis mit Garnelen", fr: "Riz frit aux crevettes", ca: "Arròs fregit amb gambes" },
+          { n: 30, p: "10,00", en: "Singapore-style rice", es: "Arroz al estilo Singapur", de: "Reis nach Singapur-Art", fr: "Riz façon Singapour", ca: "Arròs a l'estil Singapur" },
+          { n: 31, p: "10,00", en: "House special rice", es: "Arroz de la casa", de: "Hausgemachter Reis", fr: "Riz maison", ca: "Arròs de la casa" },
+        ],
+      },
+      {
+        id: "noodles",
+        kitchen: "asian",
+        title: { en: "Noodles", es: "Fideos", de: "Nudeln", fr: "Nouilles", ca: "Fideus" },
+        items: [
+          { n: 32, p: "7,60", en: "Noodles with vegetables", es: "Fideos con verduras", de: "Nudeln mit Gemüse", fr: "Nouilles aux légumes", ca: "Fideus amb verdures" },
+          { n: 33, p: "8,20", en: "Noodles with chicken", es: "Fideos con pollo", de: "Nudeln mit Hühnchen", fr: "Nouilles au poulet", ca: "Fideus amb pollastre" },
+          { n: 34, p: "8,60", en: "Noodles with beef", es: "Fideos con ternera", de: "Nudeln mit Rindfleisch", fr: "Nouilles au bœuf", ca: "Fideus amb vedella" },
+          { n: 35, p: "10,00", en: "Noodles with prawns", es: "Fideos con gambas", de: "Nudeln mit Garnelen", fr: "Nouilles aux crevettes", ca: "Fideus amb gambes" },
+          { n: 36, p: "11,00", en: "Singapore-style noodles", es: "Fideos al estilo Singapur", de: "Nudeln nach Singapur-Art", fr: "Nouilles façon Singapour", ca: "Fideus a l'estil Singapur" },
+          { n: 37, p: "11,00", en: "House noodles", es: "Fideos de la casa", de: "Hausnudeln", fr: "Nouilles maison", ca: "Fideus de la casa" },
+        ],
+      },
+      {
+        id: "ricenoodles",
+        kitchen: "asian",
+        title: { en: "Rice noodles", es: "Fideos de arroz", de: "Reisnudeln", fr: "Nouilles de riz", ca: "Fideus d'arròs" },
+        items: [
+          { n: 38, p: "8,00", en: "Rice noodles with vegetables", es: "Fideos de arroz con verduras", de: "Reisnudeln mit Gemüse", fr: "Nouilles de riz aux légumes", ca: "Fideus d'arròs amb verdures" },
+          { n: 39, p: "8,50", en: "Rice noodles with chicken", es: "Fideos de arroz con pollo", de: "Reisnudeln mit Hühnchen", fr: "Nouilles de riz au poulet", ca: "Fideus d'arròs amb pollastre" },
+          { n: 40, p: "9,00", en: "Rice noodles with beef", es: "Fideos de arroz con ternera", de: "Reisnudeln mit Rindfleisch", fr: "Nouilles de riz au bœuf", ca: "Fideus d'arròs amb vedella" },
+          { n: 41, p: "10,00", en: "Rice noodles with prawns", es: "Fideos de arroz con gambas", de: "Reisnudeln mit Garnelen", fr: "Nouilles de riz aux crevettes", ca: "Fideus d'arròs amb gambes" },
+          { n: 42, p: "11,00", en: "Singapore rice noodles", es: "Fideos de arroz estilo Singapur", de: "Reisnudeln nach Singapur-Art", fr: "Nouilles de riz façon Singapour", ca: "Fideus d'arròs estil Singapur" },
+          { n: 43, p: "11,00", en: "House rice noodles", es: "Fideos de arroz de la casa", de: "Hausgemachte Reisnudeln", fr: "Nouilles de riz maison", ca: "Fideus d'arròs de la casa" },
+        ],
+      },
+      {
+        id: "pork",
+        kitchen: "asian",
+        title: { en: "Pork", es: "Cerdo", de: "Schweinefleisch", fr: "Porc", ca: "Porc" },
+        items: [
+          { n: 44, p: "11,00", en: "Spare ribs in sweet & sour sauce", es: "Costillas en salsa agridulce", de: "Rippchen mit süß-saurer Sauce", fr: "Travers aigre-doux", ca: "Costelles agridolces" },
+          { n: 45, p: "11,00", en: "Pork in sweet & sour sauce", es: "Cerdo en salsa agridulce", de: "Schweinefleisch mit süß-saurer Sauce", fr: "Porc aigre-doux", ca: "Porc agridolç" },
+          { n: 46, p: "11,00", en: 'Pork with "Gong Bao" sauce', es: 'Cerdo con salsa "Gong Bao"', de: 'Schweinefleisch mit "Gong Bao"-Sauce', fr: 'Porc sauce "Gong Bao"', ca: 'Porc amb salsa "Gong Bao"' },
+          { n: 47, p: "11,00", en: "Bami Bang Gang (roast pork)", es: "Bami Bang Gang (cerdo asado)", de: "Bami-Bang-Gang (Schweinebraten)", fr: "Bami Bang Gang (porc rôti)", ca: "Bami Bang Gang (porc rostit)" },
+        ],
+      },
+      {
+        id: "chicken",
+        kitchen: "asian",
+        title: { en: "Chicken", es: "Pollo", de: "Huhn", fr: "Poulet", ca: "Pollastre" },
+        items: [
+          { n: 48, p: "10,00", en: "Lemon chicken", es: "Pollo al limón", de: "Zitronenhuhn", fr: "Poulet au citron", ca: "Pollastre al llimó" },
+          { n: 49, p: "10,00", en: "Sweet & sour chicken", es: "Pollo agridulce", de: "Süß-saures Hühnchen", fr: "Poulet aigre-doux", ca: "Pollastre agridolç" },
+          { n: 50, p: "10,00", en: "Chicken with bamboo & mushrooms", es: "Pollo con bambú y setas", de: "Huhn mit Bambus und Pilzen", fr: "Poulet bambou & champignons", ca: "Pollastre amb bambú i bolets" },
+          { n: 51, p: "10,00", en: "Chicken with mushrooms", es: "Pollo con champiñones", de: "Hühnchen mit Pilzen", fr: "Poulet aux champignons", ca: "Pollastre amb xampinyons" },
+          { n: 52, p: "10,15", en: "Fried chicken with almonds", es: "Pollo frito con almendras", de: "Gebratenes Hähnchen mit Mandeln", fr: "Poulet frit aux amandes", ca: "Pollastre fregit amb ametlles" },
+          { n: 53, p: "10,00", en: "Chicken chop suey", es: "Chop suey de pollo", de: "Hühnchen Chop Suey", fr: "Chop suey de poulet", ca: "Chop suey de pollastre" },
+          { n: 54, p: "10,00", en: "Chicken curry", es: "Pollo al curry", de: "Hühnercurry", fr: "Poulet au curry", ca: "Pollastre al curri" },
+          { n: 55, p: "11,00", en: 'Chicken with "Gong Bao" sauce', es: 'Pollo con salsa "Gong Bao"', de: "Hühnchen mit Gong-Bao-Sauce", fr: 'Poulet sauce "Gong Bao"', ca: 'Pollastre amb salsa "Gong Bao"' },
+          { n: 56, p: "11,00", spicy: 1, en: "Sichuan-style chicken", es: "Pollo al estilo Sichuan", de: "Hühnchen nach Sichuan-Art", fr: "Poulet façon Sichuan", ca: "Pollastre a l'estil Sichuan" },
+          { n: 57, p: "12,00", en: "Cantonese Tie-Pang chicken", es: "Pollo Tie-Pang cantonés", de: "Kantonesisches Hühnchen-Tie-Pang", fr: "Poulet Tie-Pang cantonais", ca: "Pollastre Tie-Pang cantonès" },
+          { n: 58, p: "12,00", en: "Tie-Pang chicken with black pepper", es: "Pollo Tie-Pang a la pimienta negra", de: "Chicken Tie-Pang mit Pfeffer", fr: "Poulet Tie-Pang poivre noir", ca: "Pollastre Tie-Pang amb pebre negre" },
+          { n: 59, p: "10,50", en: "Chicken with black beans", es: "Pollo con judías negras", de: "Hühnchen mit schwarzen Bohnen", fr: "Poulet aux haricots noirs", ca: "Pollastre amb mongetes negres" },
+          { n: 60, p: "10,50", en: "Salt & pepper chicken", es: "Pollo a la sal y pimienta", de: "Hühnchen mit Salz und Pfeffer", fr: "Poulet sel & poivre", ca: "Pollastre sal i pebre" },
+        ],
+      },
+      {
+        id: "beef",
+        kitchen: "asian",
+        title: { en: "Beef", es: "Ternera", de: "Rindfleisch", fr: "Bœuf", ca: "Vedella" },
+        items: [
+          { n: 61, p: "11,50", en: "Beef with bamboo & mushrooms", es: "Ternera con bambú y setas", de: "Rindfleisch mit Bambus und Pilzen", fr: "Bœuf bambou & champignons", ca: "Vedella amb bambú i bolets" },
+          { n: 62, p: "11,50", en: "Beef chop suey", es: "Chop suey de ternera", de: "Rindfleisch Chop Suey", fr: "Chop suey de bœuf", ca: "Chop suey de vedella" },
+          { n: 63, p: "11,50", en: "Beef curry", es: "Ternera al curry", de: "Rindfleisch-Curry", fr: "Bœuf au curry", ca: "Vedella al curri" },
+          { n: 64, p: "12,50", en: 'Beef "Gong Bao"', es: 'Ternera "Gong Bao"', de: 'Rindfleisch „Gong Bao“', fr: 'Bœuf "Gong Bao"', ca: 'Vedella "Gong Bao"' },
+          { n: 65, p: "13,00", spicy: 1, en: "Sichuan-style beef", es: "Ternera al estilo Sichuan", de: "Rindfleisch nach Sichuan-Art", fr: "Bœuf façon Sichuan", ca: "Vedella a l'estil Sichuan" },
+          { n: 66, p: "13,00", en: "Cantonese Tie-Pang beef", es: "Ternera Tie-Pang cantonesa", de: "Kantonesisches Rindfleisch-Tie-Pang", fr: "Bœuf Tie-Pang cantonais", ca: "Vedella Tie-Pang cantonesa" },
+          { n: 67, p: "13,00", en: "Tie-Pang beef with black pepper", es: "Ternera Tie-Pang a la pimienta negra", de: "Tie-Pang-Rindfleisch mit schwarzem Pfeffer", fr: "Bœuf Tie-Pang poivre noir", ca: "Vedella Tie-Pang amb pebre negre" },
+        ],
+      },
+      {
+        id: "prawns",
+        kitchen: "asian",
+        title: { en: "Prawns & shrimp", es: "Gambas y langostinos", de: "Garnelen und Shrimps", fr: "Crevettes", ca: "Gambes i llagostins" },
+        items: [
+          { n: 68, p: "14,50", en: "Sweet & sour prawns", es: "Gambas agridulces", de: "Süß-saure Garnelen", fr: "Crevettes aigre-douces", ca: "Gambes agridolces" },
+          { n: 69, p: "14,50", en: "Prawns with bamboo & mushrooms", es: "Gambas con bambú y setas", de: "Garnelen mit Bambus und Pilzen", fr: "Crevettes bambou & champignons", ca: "Gambes amb bambú i bolets" },
+          { n: 70, p: "14,50", en: "Gong Bao prawns", es: 'Gambas "Gong Bao"', de: "Gong Bao Garnelen", fr: 'Crevettes "Gong Bao"', ca: 'Gambes "Gong Bao"' },
+          { n: 71, p: "14,50", en: "Curry prawns", es: "Gambas al curry", de: "Currygarnelen", fr: "Crevettes au curry", ca: "Gambes al curri" },
+          { n: 72, p: "14,50", en: "Prawn chop suey", es: "Chop suey de gambas", de: "Garnelen Chop Suey", fr: "Chop suey de crevettes", ca: "Chop suey de gambes" },
+          { n: 73, p: "14,50", en: "Prawns with black beans", es: "Gambas con judías negras", de: "Garnelen mit schwarzen Bohnen", fr: "Crevettes aux haricots noirs", ca: "Gambes amb mongetes negres" },
+          { n: 74, p: "14,50", spicy: 1, en: "Sichuan-style prawns", es: "Gambas al estilo Sichuan", de: "Garnelen nach Sichuan-Art", fr: "Crevettes façon Sichuan", ca: "Gambes a l'estil Sichuan" },
+          { n: 75, p: "15,00", en: "Cantonese Tie-Pang prawns", es: "Gambas Tie-Pang cantonesas", de: "Tie-Pang-Garnelen nach kantonesischer Art", fr: "Crevettes Tie-Pang cantonaises", ca: "Gambes Tie-Pang cantoneses" },
+          { n: 76, p: "15,00", en: "Tie-Pang prawns with black pepper", es: "Gambas Tie-Pang a la pimienta negra", de: "Tie-Pang-Garnelen mit Pfeffer", fr: "Crevettes Tie-Pang poivre", ca: "Gambes Tie-Pang amb pebre" },
+          { n: 77, p: "14,50", en: "Salt & pepper prawns", es: "Gambas a la sal y pimienta", de: "Garnelen mit Salz und Pfeffer", fr: "Crevettes sel & poivre", ca: "Gambes sal i pebre" },
+        ],
+      },
+      {
+        id: "duck",
+        kitchen: "asian",
+        title: { en: "Duck", es: "Pato", de: "Ente", fr: "Canard", ca: "Ànec" },
+        items: [
+          { n: 78, p: "21,00", en: "Peking duck", es: "Pato pekinés", de: "Pekingente", fr: "Canard laqué de Pékin", ca: "Ànec de Pequín" },
+          { n: 79, p: "19,50", en: "Duck with bamboo & mushrooms", es: "Pato con bambú y setas", de: "Ente mit Bambus und Pilzen", fr: "Canard bambou & champignons", ca: "Ànec amb bambú i bolets" },
+          { n: 80, p: "19,50", en: "Duck with orange sauce", es: "Pato a la naranja", de: "Ente mit Orangensauce", fr: "Canard à l'orange", ca: "Ànec a la taronja" },
+          { n: 81, p: "19,50", en: 'Duck with "Gong Bao" sauce', es: 'Pato con salsa "Gong Bao"', de: 'Ente mit „Gong Bao"-Sauce', fr: 'Canard sauce "Gong Bao"', ca: 'Ànec amb salsa "Gong Bao"' },
+          { n: 82, p: "21,00", en: "Tie-Pang duck", es: "Pato Tie-Pang", de: "Tie-Pang-Ente", fr: "Canard Tie-Pang", ca: "Ànec Tie-Pang" },
+        ],
+      },
+      {
+        id: "sauces",
+        kitchen: "asian",
+        title: { en: "Sauces", es: "Salsas", de: "Soßen", fr: "Sauces", ca: "Salses" },
+        items: [
+          { n: 83, p: "2,50", en: "Cantonese sauce", es: "Salsa cantonesa", de: "Kantonesische Soße", fr: "Sauce cantonaise", ca: "Salsa cantonesa" },
+          { n: 84, p: "2,50", en: "Curry sauce", es: "Salsa de curry", de: "Currysauce", fr: "Sauce curry", ca: "Salsa de curri" },
+          { n: 85, p: "2,50", en: "Gong Bao sauce", es: "Salsa Gong Bao", de: "Gong Bao Soße", fr: "Sauce Gong Bao", ca: "Salsa Gong Bao" },
+          { n: 86, p: "2,50", en: "Sweet & sour sauce", es: "Salsa agridulce", de: "Süß-saure Soße", fr: "Sauce aigre-douce", ca: "Salsa agridolça" },
+          { n: 87, p: "2,50", spicy: 1, en: "Hot sauce", es: "Salsa picante", de: "Scharfe Soße", fr: "Sauce piquante", ca: "Salsa picant" },
+        ],
+      },
+      {
+        id: "specials",
+        kitchen: "asian",
+        title: { en: "House specials", es: "Especialidades", de: "Spezialitäten", fr: "Spécialités", ca: "Especialitats" },
+        items: [
+          { n: 88, p: "16,00", en: "Tie-Pang Happy Family curry", es: "Tie-Pang Happy Family al curry", de: "Tie-Pang Happy Family Curry", fr: "Tie-Pang Happy Family curry", ca: "Tie-Pang Happy Family al curri" },
+          { n: 89, p: "16,00", en: 'Tie-Pang Happy Family "Gong Bao"', es: 'Tie-Pang Happy Family "Gong Bao"', de: 'Tie-Pang Glückliche Familie „Gong Bao"', fr: 'Tie-Pang Happy Family "Gong Bao"', ca: 'Tie-Pang Happy Family "Gong Bao"' },
+        ],
+      },
+      {
+        id: "veg",
+        kitchen: "asian",
+        title: { en: "Vegetables", es: "Verduras", de: "Gemüse", fr: "Légumes", ca: "Verdures" },
+        items: [
+          { n: 90, p: "8,50", en: "Sweet & sour vegetables", es: "Verduras agridulces", de: "Süß-saures Gemüse", fr: "Légumes aigre-doux", ca: "Verdures agridolces" },
+          { n: 91, p: "8,50", en: "Vegetable chop suey", es: "Chop suey de verduras", de: "Gemüse-Chop-Suey", fr: "Chop suey de légumes", ca: "Chop suey de verdures" },
+          { n: 92, p: "8,50", en: '"Gong Bao" vegetables', es: 'Verduras "Gong Bao"', de: '„Gong Bao"-Gemüse', fr: 'Légumes "Gong Bao"', ca: 'Verdures "Gong Bao"' },
+          { n: 93, p: "8,50", en: "Vegetables with black beans", es: "Verduras con judías negras", de: "Gemüse mit schwarzen Bohnen", fr: "Légumes aux haricots noirs", ca: "Verdures amb mongetes negres" },
+        ],
+      },
+      {
+        id: "desserts",
+        kitchen: "asian",
+        title: { en: "Desserts", es: "Postres", de: "Desserts", fr: "Desserts", ca: "Postres" },
+        items: [
+          { n: 94, p: "5,50", en: "Fried ice cream", es: "Helado frito", de: "Frittiertes Eis", fr: "Glace frite", ca: "Gelat fregit" },
+          { n: 95, p: "5,50", en: "Fried banana", es: "Plátano frito", de: "Gebratene Banane", fr: "Banane frite", ca: "Plàtan fregit" },
+          { n: 96, p: "5,50", en: "Fried pineapple", es: "Piña frita", de: "Gebratene Ananas", fr: "Ananas frit", ca: "Pinya fregida" },
+          { n: 97, p: "5,50", en: "Fried apple", es: "Manzana frita", de: "Gebratene Äpfel", fr: "Pomme frite", ca: "Poma fregida" },
+        ],
+      },
+
+      // ——— Mediterranean / European kitchen (menu numbers as printed) ———
+      {
+        id: "m-bread",
+        kitchen: "med",
+        title: { en: "Bread", es: "Pan", de: "Brot", fr: "Pain", ca: "Pa" },
+        items: [
+          { n: 1, p: "3,00", en: "Bread with butter", es: "Pan con mantequilla", de: "Brot mit Butter", fr: "Pain au beurre", ca: "Pa amb mantega" },
+          { n: 2, p: "2,70", en: "Garlic bread", es: "Pan con ajo", de: "Knoblauchbrot", fr: "Pain à l'ail", ca: "Pa amb all" },
+          { n: 3, p: "3,80", en: "Garlic bread and cheese", es: "Pan con ajo y queso", de: "Knoblauchbrot mit Käse", fr: "Pain à l'ail et fromage", ca: "Pa amb all i formatge" },
+          { n: 4, p: "7,00", en: "Bruschetta with tomato & Serrano ham (3 pcs)", es: "Bruschetta de tomate y jamón serrano (3 uds)", de: "Bruschetta mit Tomate und Serrano-Schinken (3 Stk.)", fr: "Bruschetta tomate et jambon Serrano (3 pcs)", ca: "Bruschetta de tomàquet i pernil serrà (3 u.)" },
+          { n: 5, p: "8,00", en: "Bruschetta with tomato & avocado (3 pcs)", es: "Bruschetta de tomate y aguacate (3 uds)", de: "Bruschetta mit Tomate und Avocado (3 Stk.)", fr: "Bruschetta tomate et avocat (3 pcs)", ca: "Bruschetta de tomàquet i alvocat (3 u.)" },
+        ],
+      },
+      {
+        id: "m-soups",
+        kitchen: "med",
+        title: { en: "Soups", es: "Sopas", de: "Suppen", fr: "Soupes", ca: "Sopes" },
+        items: [
+          { n: 6, p: "6,50", en: "Chicken soup", es: "Sopa de pollo", de: "Hühnersuppe", fr: "Soupe de poulet", ca: "Sopa de pollastre" },
+          { n: 7, p: "7,50", en: "Seafood soup", es: "Sopa de mariscos", de: "Meeresfrüchtesuppe", fr: "Soupe de fruits de mer", ca: "Sopa de marisc" },
+          { n: 8, p: "6,50", en: "Cream of tomato soup", es: "Crema de tomate", de: "Tomatencremesuppe", fr: "Crème de tomate", ca: "Crema de tomàquet" },
+        ],
+      },
+      {
+        id: "m-starters",
+        kitchen: "med",
+        title: { en: "Starters", es: "Entrantes", de: "Vorspeisen", fr: "Entrées", ca: "Entrants" },
+        items: [
+          { n: 9, p: "8,70", en: "Melon with ham", es: "Melón con jamón", de: "Melone mit Schinken", fr: "Melon au jambon", ca: "Meló amb pernil" },
+          { n: 10, p: "12,70", en: "Avocado with prawns", es: "Aguacate con gambas", de: "Avocado mit Garnelen", fr: "Avocat aux crevettes", ca: "Alvocat amb gambes" },
+          { n: 11, p: "12,00", en: "Garlic prawns", es: "Gambas al ajillo", de: "Knoblauchgarnelen", fr: "Crevettes à l'ail", ca: "Gambes a l'all" },
+          { n: 12, p: "12,00", spicy: 1, en: 'Prawns "Diavolo" spicy', es: 'Gambas "Diavolo" picante', de: 'Garnelen „Diavolo" scharf', fr: 'Crevettes "Diavolo" piquantes', ca: 'Gambes "Diavolo" picants' },
+          { n: 13, p: "8,50", en: "Garlic mushrooms", es: "Champiñones al ajillo", de: "Knoblauchchampignons", fr: "Champignons à l'ail", ca: "Xampinyons a l'all" },
+          { n: 14, p: "8,80", en: "Fried Camembert with blueberry jam", es: "Camembert frito con mermelada de arándanos", de: "Frittierter Camembert mit Heidelbeermarmelade", fr: "Camembert frit confiture de myrtilles", ca: "Camembert fregit amb melmelada de nabius" },
+          { n: 15, p: "11,00", en: "Marinara-style mussels", es: "Mejillones a la marinera", de: "Miesmuscheln a la Marinera", fr: "Moules à la marinière", ca: "Musclos a la marinera" },
+          { n: 16, p: "11,00", en: 'Mussels "Chef"', es: 'Mejillones "Chef"', de: 'Miesmuscheln „Chef"', fr: 'Moules "Chef"', ca: 'Musclos "Chef"' },
+          { n: 17, p: "12,50", en: "Mixed seafood", es: "Mixto de mariscos", de: "Meeresfrüchte-Mix", fr: "Assortiment de fruits de mer", ca: "Mixt de marisc" },
+          { n: 18, p: "7,50", en: "Iberian ham croquettes (3 pcs)", es: "Croquetas de jamón ibérico (3 uds)", de: "Iberico-Schinken-Kroketten (3 Stk.)", fr: "Croquettes de jambon ibérique (3 pcs)", ca: "Croquetes de pernil ibèric (3 u.)" },
+          { n: 19, p: "8,50", en: "Padrón peppers", es: "Pimientos de Padrón", de: "Padrón-Paprika", fr: "Piments de Padrón", ca: "Pebrots de Padrón" },
+          { n: 20, p: "13,50", en: "Squid rings Roman style", es: "Calamares a la romana", de: "Calamari a la Romana", fr: "Calamars à la romaine", ca: "Calamars a la romana" },
+        ],
+      },
+      {
+        id: "m-salads",
+        kitchen: "med",
+        title: { en: "Salads", es: "Ensaladas", de: "Salate", fr: "Salades", ca: "Amanides" },
+        items: [
+          { n: 21, p: "8,50", en: "Mixed salad", es: "Ensalada mixta", de: "Gemischter Salat", fr: "Salade mixte", ca: "Amanida mixta" },
+          { n: 22, p: "13,00", en: "George's salad", es: "Ensalada George's", de: "George's Salat", fr: "Salade George's", ca: "Amanida George's" },
+          { n: 23, p: "13,00", en: "Crispy chicken salad", es: "Ensalada de pollo crujiente", de: "Knuspriger Hähnchensalat", fr: "Salade de poulet croustillant", ca: "Amanida de pollastre cruixent" },
+          { n: 24, p: "11,50", en: "Caesar salad", es: "Ensalada César", de: "Caesar-Salat", fr: "Salade César", ca: "Amanida Cèsar" },
+          { n: 25, p: "8,70", en: "Caprese salad", es: "Ensalada Caprese", de: "Caprese-Salat", fr: "Salade Caprese", ca: "Amanida Caprese" },
+          { n: 26, p: "10,00", en: "Tuna salad", es: "Ensalada de atún", de: "Thunfischsalat", fr: "Salade au thon", ca: "Amanida de tonyina" },
+        ],
+      },
+      {
+        id: "m-pasta",
+        kitchen: "med",
+        title: { en: "Pasta", es: "Pasta", de: "Pasta", fr: "Pâtes", ca: "Pasta" },
+        items: [
+          { n: 27, p: "14,70", en: "Spaghetti Frutti di Mare", es: "Spaghetti Frutti di Mare", de: "Spaghetti Frutti di Mare", fr: "Spaghetti Frutti di Mare", ca: "Spaghetti Frutti di Mare" },
+          { n: 28, p: "14,70", en: "Spaghetti George's", es: "Spaghetti George's", de: "Spaghetti George's", fr: "Spaghetti George's", ca: "Spaghetti George's" },
+          { n: 29, p: "11,50", en: "Spaghetti Carbonara", es: "Spaghetti Carbonara", de: "Spaghetti Carbonara", fr: "Spaghetti Carbonara", ca: "Spaghetti Carbonara" },
+          { n: 30, p: "11,00", en: "Spaghetti Bolognese", es: "Spaghetti a la boloñesa", de: "Spaghetti Bolognese", fr: "Spaghetti bolognaise", ca: "Spaghetti a la bolonyesa" },
+          { n: 31, p: "10,50", en: "Penne all'Arrabbiata", es: "Penne all'Arrabbiata", de: "Penne all'Arrabbiata", fr: "Penne all'Arrabbiata", ca: "Penne all'Arrabbiata" },
+          { n: 32, p: "12,50", en: "Lasagna Bolognese", es: "Lasaña a la boloñesa", de: "Lasagne Bolognese", fr: "Lasagnes bolognaise", ca: "Lasanya a la bolonyesa" },
+        ],
+      },
+      {
+        id: "m-paella",
+        kitchen: "med",
+        title: { en: "Paella", es: "Paella", de: "Paella", fr: "Paella", ca: "Paella" },
+        items: [
+          { n: 33, p: "15,50", en: "Mixed paella (chicken & seafood)", es: "Paella mixta (pollo y mariscos)", de: "Gemischte Paella (Huhn & Meeresfrüchte)", fr: "Paella mixte (poulet et fruits de mer)", ca: "Paella mixta (pollastre i marisc)" },
+          { n: 34, p: "15,50", en: "Fish & seafood paella", es: "Paella de pescados y mariscos", de: "Fisch- und Meeresfrüchte-Paella", fr: "Paella poissons et fruits de mer", ca: "Paella de peixos i marisc" },
+        ],
+      },
+      {
+        id: "m-pizza",
+        kitchen: "med",
+        title: { en: "Pizza", es: "Pizza", de: "Pizza", fr: "Pizza", ca: "Pizza" },
+        items: [
+          { n: 56, p: "8,50", en: "Margherita", es: "Margarita", de: "Margherita", fr: "Margherita", ca: "Margarita" },
+          { n: 57, p: "9,50", en: "Ham", es: "Jamón", de: "Schinken", fr: "Jambon", ca: "Pernil" },
+          { n: 58, p: "10,50", en: "Ham & mushrooms", es: "Jamón y champiñones", de: "Schinken und Champignons", fr: "Jambon et champignons", ca: "Pernil i xampinyons" },
+          { n: 59, p: "10,00", en: "Quattro Formaggi", es: "Quattro Formaggi", de: "Quattro Formaggi", fr: "Quattro Formaggi", ca: "Quattro Formaggi" },
+          { n: 60, p: "10,50", en: "Pepperoni", es: "Pepperoni", de: "Pepperoni", fr: "Pepperoni", ca: "Pepperoni" },
+          { n: 61, p: "9,50", en: "Vegetarian", es: "Vegetariana", de: "Vegetarisch", fr: "Végétarienne", ca: "Vegetariana" },
+          { n: 62, p: "9,00", en: "Tuna", es: "Tonno", de: "Thunfisch", fr: "Thon", ca: "Tonyina" },
+          { n: 63, p: "11,00", en: "Tricolor (Serrano, rocket & Parmesan)", es: "Tricolor (jamón serrano, rúcula y parmesano)", de: "Tricolor (Serrano, Rucola & Parmesan)", fr: "Tricolore (Serrano, roquette & parmesan)", ca: "Tricolor (pernil serrà, ruca i parmesà)" },
+        ],
+      },
+      {
+        id: "m-extras",
+        kitchen: "med",
+        title: { en: "Pizza extras", es: "Extras pizza", de: "Pizza-Extras", fr: "Suppléments pizza", ca: "Extres pizza" },
+        items: [
+          { n: 64, p: "2,00", en: "Chicken", es: "Pollo", de: "Hähnchen", fr: "Poulet", ca: "Pollastre" },
+          { n: 65, p: "2,00", en: "Beef", es: "Ternera", de: "Rindfleisch", fr: "Bœuf", ca: "Vedella" },
+          { n: 66, p: "2,00", en: "Bacon", es: "Bacon", de: "Speck", fr: "Bacon", ca: "Bacon" },
+          { n: 67, p: "2,00", en: "Pepperoni", es: "Pepperoni", de: "Pepperoni", fr: "Pepperoni", ca: "Pepperoni" },
+          { n: 68, p: "2,00", en: "Prawns", es: "Gambas", de: "Garnelen", fr: "Crevettes", ca: "Gambes" },
+          { n: 69, p: "2,00", en: "Ham", es: "Jamón", de: "Schinken", fr: "Jambon", ca: "Pernil" },
+          { n: 70, p: "1,00", en: "Mushrooms", es: "Champiñones", de: "Champignons", fr: "Champignons", ca: "Xampinyons" },
+          { n: 71, p: "1,00", en: "Peppers", es: "Pimientos", de: "Paprika", fr: "Poivrons", ca: "Pebrots" },
+          { n: 72, p: "1,00", en: "Onion", es: "Cebolla", de: "Zwiebel", fr: "Oignon", ca: "Ceba" },
+          { n: 73, p: "1,00", en: "Pineapple", es: "Piña", de: "Ananas", fr: "Ananas", ca: "Pinya" },
+          { n: 74, p: "1,00", en: "Jalapeños", es: "Jalapeños", de: "Jalapeños", fr: "Jalapeños", ca: "Jalapeños" },
+          { n: 75, p: "2,00", en: "Tuna", es: "Atún", de: "Thunfisch", fr: "Thon", ca: "Tonyina" },
+        ],
+      },
+      {
+        id: "m-kids",
+        kitchen: "med",
+        title: { en: "Kids menu", es: "Menú niños", de: "Kindermenü", fr: "Menu enfants", ca: "Menú nens" },
+        items: [
+          { n: 76, p: "6,80", en: "Spaghetti with tomato sauce", es: "Spaghetti con tomate", de: "Spaghetti mit Tomatensoße", fr: "Spaghetti sauce tomate", ca: "Spaghetti amb tomàquet" },
+          { n: 77, p: "6,80", en: "Penne Bolognese", es: "Penne boloñesa", de: "Penne Bolognese", fr: "Penne bolognaise", ca: "Penne bolonyesa" },
+          { n: 78, p: "6,80", en: "Chicken nuggets", es: "Nuggets de pollo", de: "Chicken Nuggets", fr: "Nuggets de poulet", ca: "Nuggets de pollastre" },
+        ],
+      },
+
+    ];
+
+    
+    // Enrich printed 2026 descriptions, veg flags, extra spice, Italian names
+    const DESC = {
+      "m-salads:21": {
+        en: "Mixed greens, tomato, cucumber, corn, red onion",
+        es: "Mezclum, tomate, pepino, maíz, cebolla roja",
+        de: "Blattsalat, Tomate, Gurke, Mais, rote Zwiebel",
+        fr: "Mesclun, tomate, concombre, maïs, oignon rouge",
+        ca: "Mesclum, tomàquet, cogombre, blat de moro, ceba vermella",
+        it: "Misticanza, pomodoro, cetriolo, mais, cipolla rossa",
+      },
+      "m-salads:22": {
+        en: "Mixed greens, king prawns, smoked salmon, avocado, cherry tomatoes, yogurt dressing",
+        es: "Mezclum, langostinos, salmón ahumado, aguacate, tomate cherry y salsa de yogur",
+        de: "Blattsalat, Garnelen, Räucherlachs, Avocado, Kirschtomaten, Joghurtdressing",
+        fr: "Mesclun, gambas, saumon fumé, avocat, tomates cerises, sauce yaourt",
+        ca: "Mesclum, llagostins, salmó fumat, alvocat, tomàquet cherry i salsa de iogurt",
+        it: "Misticanza, gamberoni, salmone affumicato, avocado, pomodorini, salsa yogurt",
+      },
+      "m-salads:23": {
+        en: "Avocado, cherry tomatoes, pineapple, crispy chicken, bacon, Parmesan, mango sauce",
+        es: "Aguacate, tomate cherry, piña, pollo crujiente, bacon, parmesano y salsa mango",
+        de: "Avocado, Kirschtomaten, Ananas, knuspriges Hähnchen, Speck, Parmesan, Mangosauce",
+        fr: "Avocat, tomates cerises, ananas, poulet croustillant, bacon, parmesan, sauce mangue",
+        ca: "Alvocat, tomàquet cherry, pinya, pollastre cruixent, bacon, parmesà i salsa de mango",
+        it: "Avocado, pomodorini, ananas, pollo croccante, bacon, parmigiano, salsa mango",
+      },
+      "m-salads:24": {
+        en: "Lettuce, chicken, croutons, Parmesan, Caesar dressing",
+        es: "Lechuga, pollo, picatostes, parmesano y salsa César",
+        de: "Salat, Hähnchen, Croutons, Parmesan, Caesar-Dressing",
+        fr: "Laitue, poulet, croûtons, parmesan, sauce César",
+        ca: "Enciam, pollastre, crostons, parmesà i salsa Cèsar",
+        it: "Lattuga, pollo, crostini, parmigiano, salsa Caesar",
+      },
+      "m-salads:25": {
+        en: "Mozzarella, tomato, basil, olive oil",
+        es: "Mozzarella, tomate, albahaca, aceite de oliva",
+        de: "Mozzarella, Tomate, Basilikum, Olivenöl",
+        fr: "Mozzarella, tomate, basilic, huile d'olive",
+        ca: "Mozzarella, tomàquet, alfàbrega, oli d'oliva",
+        it: "Mozzarella, pomodoro, basilico, olio d'oliva",
+      },
+      "m-salads:26": {
+        en: "Mixed greens, cherry tomatoes, carrots, onion, cucumber, corn, olives",
+        es: "Mezclum, tomate cherry, zanahoria, cebolla, pepino, maíz y aceitunas",
+        de: "Blattsalat, Kirschtomaten, Karotten, Zwiebel, Gurke, Mais, Oliven",
+        fr: "Mesclun, tomates cerises, carottes, oignon, concombre, maïs, olives",
+        ca: "Mesclum, tomàquet cherry, pastanaga, ceba, cogombre, blat de moro i olives",
+        it: "Misticanza, pomodorini, carote, cipolla, cetriolo, mais, olive",
+      },
+      "m-pasta:27": {
+        en: "King prawns, mussels, clams and squid",
+        es: "Langostinos, mejillones, almejas y calamares",
+        de: "Garnelen, Miesmuscheln, Venusmuscheln und Tintenfisch",
+        fr: "Gambas, moules, palourdes et calamars",
+        ca: "Llagostins, musclos, cloïsses i calamars",
+        it: "Gamberoni, cozze, vongole e calamari",
+      },
+      "m-pasta:28": {
+        en: "Strips of fillet steak with mushrooms and Spanish sauce",
+        es: "Tiras de solomillo con setas y salsa española",
+        de: "Rinderfiletstreifen mit Pilzen und spanischer Sauce",
+        fr: "Lanières de filet, champignons et sauce espagnole",
+        ca: "Tires de solomillo amb bolets i salsa espanyola",
+        it: "Straccetti di filetto, funghi e salsa spagnola",
+      },
+      "m-pizza:56": {
+        en: "Tomato sauce and mozzarella",
+        es: "Salsa de tomate y mozzarella",
+        de: "Tomatensauce und Mozzarella",
+        fr: "Sauce tomate et mozzarella",
+        ca: "Salsa de tomàquet i mozzarella",
+        it: "Salsa di pomodoro e mozzarella",
+      },
+      "m-pizza:57": {
+        en: "Tomato sauce, mozzarella and ham",
+        es: "Salsa de tomate, mozzarella y jamón",
+        de: "Tomatensauce, Mozzarella und Schinken",
+        fr: "Sauce tomate, mozzarella et jambon",
+        ca: "Salsa de tomàquet, mozzarella i pernil",
+        it: "Salsa di pomodoro, mozzarella e prosciutto",
+      },
+      "m-pizza:58": {
+        en: "Tomato sauce, mozzarella, ham and mushrooms",
+        es: "Salsa de tomate, mozzarella, jamón y champiñones",
+        de: "Tomatensauce, Mozzarella, Schinken und Champignons",
+        fr: "Sauce tomate, mozzarella, jambon et champignons",
+        ca: "Salsa de tomàquet, mozzarella, pernil i xampinyons",
+        it: "Salsa di pomodoro, mozzarella, prosciutto e funghi",
+      },
+      "m-pizza:59": {
+        en: "Tomato, mozzarella, gorgonzola, goat cheese, camembert and Parmesan",
+        es: "Tomate, mozzarella, gorgonzola, queso de cabra, camembert y parmesano",
+        de: "Tomate, Mozzarella, Gorgonzola, Ziegenkäse, Camembert und Parmesan",
+        fr: "Tomate, mozzarella, gorgonzola, chèvre, camembert et parmesan",
+        ca: "Tomàquet, mozzarella, gorgonzola, formatge de cabra, camembert i parmesà",
+        it: "Pomodoro, mozzarella, gorgonzola, caprino, camembert e parmigiano",
+      },
+      "m-pizza:60": {
+        en: "Tomato sauce, mozzarella and pepperoni",
+        es: "Salsa de tomate, mozzarella y pepperoni",
+        de: "Tomatensauce, Mozzarella und Pepperoni",
+        fr: "Sauce tomate, mozzarella et pepperoni",
+        ca: "Salsa de tomàquet, mozzarella i pepperoni",
+        it: "Salsa di pomodoro, mozzarella e pepperoni",
+      },
+      "m-pizza:61": {
+        en: "Tomato, mozzarella, mushrooms, onion, courgette, peppers and olives",
+        es: "Tomate, mozzarella, champiñones, cebolla, calabacín, pimientos y aceitunas",
+        de: "Tomate, Mozzarella, Champignons, Zwiebel, Zucchini, Paprika und Oliven",
+        fr: "Tomate, mozzarella, champignons, oignon, courgette, poivrons et olives",
+        ca: "Tomàquet, mozzarella, xampinyons, ceba, carbassó, pebrots i olives",
+        it: "Pomodoro, mozzarella, funghi, cipolla, zucchina, peperoni e olive",
+      },
+      "m-pizza:62": {
+        en: "Tomato sauce, mozzarella, tuna and onion",
+        es: "Salsa de tomate, mozzarella, atún y cebolla",
+        de: "Tomatensauce, Mozzarella, Thunfisch und Zwiebel",
+        fr: "Sauce tomate, mozzarella, thon et oignon",
+        ca: "Salsa de tomàquet, mozzarella, tonyina i ceba",
+        it: "Salsa di pomodoro, mozzarella, tonno e cipolla",
+      },
+      "m-pizza:63": {
+        en: "Tomato sauce, mozzarella, Serrano ham, rocket and Parmesan",
+        es: "Salsa de tomate, mozzarella, jamón serrano, rúcula y parmesano",
+        de: "Tomatensauce, Mozzarella, Serrano, Rucola und Parmesan",
+        fr: "Sauce tomate, mozzarella, Serrano, roquette et parmesan",
+        ca: "Salsa de tomàquet, mozzarella, pernil serrà, ruca i parmesà",
+        it: "Salsa di pomodoro, mozzarella, Serrano, rucola e parmigiano",
+      },
+      "dimsum:1": { en: "Steamed shrimp dumplings · 4 pcs", es: "Dumplings de gamba al vapor · 4 uds", de: "Gedämpfte Garnelen-Dumplings · 4 Stk.", fr: "Raviolis crevette vapeur · 4 pcs", ca: "Dumplings de gamba al vapor · 4 u.", it: "Ravioli di gamberi al vapore · 4 pz" },
+      "dimsum:2": { en: "Pork & shrimp siu mai · 4 pcs", es: "Siu mai de cerdo y gamba · 4 uds", de: "Siu Mai mit Schwein & Garnele · 4 Stk.", fr: "Siu mai porc et crevette · 4 pcs", ca: "Siu mai de porc i gamba · 4 u.", it: "Siu mai di maiale e gambero · 4 pz" },
+    };
+    const VEG_KEYS = new Set([
+      "dimsum:4","starters:10","rice:23","rice:24","noodles:32","ricenoodles:38",
+      "veg:90","veg:91","veg:92","veg:93","sauces:83","sauces:84","sauces:85","sauces:86","sauces:87",
+      "m-bread:1","m-bread:2","m-bread:3","m-bread:5","m-soups:8","m-starters:13","m-starters:19",
+      "m-salads:21","m-salads:25","m-pasta:31","m-pizza:56","m-pizza:61",
+      "m-extras:70","m-extras:71","m-extras:72","m-extras:73","m-extras:74","m-kids:76",
+    ]);
+    const SPICY_KEYS = new Set([
+      "starters:5","chicken:56","beef:65","prawns:74","sauces:87","veg:92","duck:81",
+      "pork:46","chicken:55","m-starters:12","m-pasta:31",
+    ]);
+    const IT_NAME = {
+      "Chicken gyoza": "Gyoza di pollo", "Vegetable gyoza": "Gyoza di verdure",
+      "Hot & sour soup": "Zuppa agropiccante", "Chicken corn soup": "Zuppa di mais e pollo",
+      "Wonton soup": "Zuppa di wonton", "Chinese salad": "Insalata cinese",
+      "Spring roll": "Involtino primavera", "Vegetable roll": "Involtino di verdure",
+      "Crispy duck": "Anatra croccante", "Prawn crackers": "Sfoglie di gamberi",
+      "Fried prawns": "Gamberi fritti", "Prawn toast": "Toast di gamberi",
+      'Spare ribs with "Jindu" sauce': 'Costine salsa "Jindu"',
+      "Salt & pepper spare ribs": "Costine sale e pepe",
+      "Fried chicken wings": "Ali di pollo fritte", "Salt & pepper wings": "Ali sale e pepe",
+      "French fries": "Patatine fritte", "Salt & pepper fries": "Patatine sale e pepe",
+      "Fried wonton": "Wonton fritti", "Chicken samosa (4 pcs)": "Samosa di pollo (4 pz)",
+      "White rice": "Riso bianco", "Rice with vegetables": "Riso con verdure",
+      "Egg fried rice": "Riso saltato con uovo", "Special fried rice (3 delicacies)": "Riso 3 delizie",
+      "Chicken fried rice": "Riso saltato con pollo", "Beef fried rice": "Riso saltato con manzo",
+      "Prawn fried rice": "Riso saltato con gamberi", "Singapore-style rice": "Riso alla Singapore",
+      "House special rice": "Riso della casa",
+      "Noodles with vegetables": "Noodles con verdure", "Noodles with chicken": "Noodles con pollo",
+      "Noodles with beef": "Noodles con manzo", "Noodles with prawns": "Noodles con gamberi",
+      "Singapore-style noodles": "Noodles alla Singapore", "House noodles": "Noodles della casa",
+      "Rice noodles with vegetables": "Noodles di riso con verdure",
+      "Rice noodles with chicken": "Noodles di riso con pollo",
+      "Rice noodles with beef": "Noodles di riso con manzo",
+      "Rice noodles with prawns": "Noodles di riso con gamberi",
+      "Singapore rice noodles": "Noodles di riso Singapore",
+      "House rice noodles": "Noodles di riso della casa",
+      "Spare ribs in sweet & sour sauce": "Costine agrodolci",
+      "Pork in sweet & sour sauce": "Maiale agrodolce",
+      'Pork with "Gong Bao" sauce': 'Maiale "Gong Bao"',
+      "Bami Bang Gang (roast pork)": "Bami Bang Gang (maiale arrosto)",
+      "Lemon chicken": "Pollo al limone", "Sweet & sour chicken": "Pollo agrodolce",
+      "Chicken with bamboo & mushrooms": "Pollo con bambù e funghi",
+      "Chicken with mushrooms": "Pollo con funghi",
+      "Fried chicken with almonds": "Pollo fritto alle mandorle",
+      "Chicken chop suey": "Chop suey di pollo", "Chicken curry": "Pollo al curry",
+      'Chicken with "Gong Bao" sauce': 'Pollo "Gong Bao"',
+      "Sichuan-style chicken": "Pollo alla Sichuan",
+      "Cantonese Tie-Pang chicken": "Pollo Tie-Pang cantonese",
+      "Tie-Pang chicken with black pepper": "Pollo Tie-Pang al pepe nero",
+      "Chicken with black beans": "Pollo con fagioli neri",
+      "Salt & pepper chicken": "Pollo sale e pepe",
+      "Beef with bamboo & mushrooms": "Manzo con bambù e funghi",
+      "Beef chop suey": "Chop suey di manzo", "Beef curry": "Manzo al curry",
+      'Beef "Gong Bao"': 'Manzo "Gong Bao"', "Sichuan-style beef": "Manzo alla Sichuan",
+      "Cantonese Tie-Pang beef": "Manzo Tie-Pang cantonese",
+      "Tie-Pang beef with black pepper": "Manzo Tie-Pang al pepe nero",
+      "Sweet & sour prawns": "Gamberi agrodolci",
+      "Prawns with bamboo & mushrooms": "Gamberi con bambù e funghi",
+      "Gong Bao prawns": 'Gamberi "Gong Bao"', "Curry prawns": "Gamberi al curry",
+      "Prawn chop suey": "Chop suey di gamberi",
+      "Prawns with black beans": "Gamberi con fagioli neri",
+      "Sichuan-style prawns": "Gamberi alla Sichuan",
+      "Cantonese Tie-Pang prawns": "Gamberi Tie-Pang cantonesi",
+      "Tie-Pang prawns with black pepper": "Gamberi Tie-Pang al pepe nero",
+      "Salt & pepper prawns": "Gamberi sale e pepe",
+      "Peking duck": "Anatra alla Pechino",
+      "Duck with bamboo & mushrooms": "Anatra con bambù e funghi",
+      "Duck with orange sauce": "Anatra all'arancia",
+      'Duck with "Gong Bao" sauce': 'Anatra "Gong Bao"',
+      "Tie-Pang duck": "Anatra Tie-Pang",
+      "Cantonese sauce": "Salsa cantonese", "Curry sauce": "Salsa al curry",
+      "Gong Bao sauce": "Salsa Gong Bao", "Sweet & sour sauce": "Salsa agrodolce",
+      "Hot sauce": "Salsa piccante",
+      "Tie-Pang Happy Family curry": "Tie-Pang Happy Family al curry",
+      'Tie-Pang Happy Family "Gong Bao"': 'Tie-Pang Happy Family "Gong Bao"',
+      "Sweet & sour vegetables": "Verdure agrodolci",
+      "Vegetable chop suey": "Chop suey di verdure",
+      '"Gong Bao" vegetables': 'Verdure "Gong Bao"',
+      "Vegetables with black beans": "Verdure con fagioli neri",
+      "Fried ice cream": "Gelato fritto", "Fried banana": "Banana fritta",
+      "Fried pineapple": "Ananas fritto", "Fried apple": "Mela fritta",
+      "Bread with butter": "Pane e burro", "Garlic bread": "Pane all'aglio",
+      "Garlic bread and cheese": "Pane all'aglio e formaggio",
+      "Bruschetta with tomato & Serrano ham (3 pcs)": "Bruschetta pomodoro e Serrano (3 pz)",
+      "Bruschetta with tomato & avocado (3 pcs)": "Bruschetta pomodoro e avocado (3 pz)",
+      "Chicken soup": "Zuppa di pollo", "Seafood soup": "Zuppa di mare",
+      "Cream of tomato soup": "Crema di pomodoro",
+      "Melon with ham": "Melone e prosciutto", "Avocado with prawns": "Avocado con gamberi",
+      "Garlic prawns": "Gamberi all'aglio", 'Prawns "Diavolo" spicy': 'Gamberi "Diavolo" piccanti',
+      "Garlic mushrooms": "Funghi all'aglio",
+      "Fried Camembert with blueberry jam": "Camembert fritto con confettura di mirtilli",
+      "Marinara-style mussels": "Cozze alla marinara", 'Mussels "Chef"': 'Cozze "Chef"',
+      "Mixed seafood": "Misto di mare",
+      "Iberian ham croquettes (3 pcs)": "Crocchette di jamón ibérico (3 pz)",
+      "Padrón peppers": "Peperoni di Padrón",
+      "Squid rings Roman style": "Calamari alla romana",
+      "Mixed salad": "Insalata mista", "George's salad": "Insalata George's",
+      "Crispy chicken salad": "Insalata di pollo croccante",
+      "Caesar salad": "Insalata Caesar", "Caprese salad": "Insalata Caprese",
+      "Tuna salad": "Insalata di tonno",
+      "Spaghetti Frutti di Mare": "Spaghetti Frutti di Mare",
+      "Spaghetti George's": "Spaghetti George's",
+      "Spaghetti Carbonara": "Spaghetti Carbonara",
+      "Spaghetti Bolognese": "Spaghetti alla bolognese",
+      "Penne all'Arrabbiata": "Penne all'Arrabbiata",
+      "Lasagna Bolognese": "Lasagne alla bolognese",
+      "Mixed paella (chicken & seafood)": "Paella mista (pollo e frutti di mare)",
+      "Fish & seafood paella": "Paella di pesce e frutti di mare",
+      "Margherita": "Margherita", "Ham": "Prosciutto", "Ham & mushrooms": "Prosciutto e funghi",
+      "Quattro Formaggi": "Quattro Formaggi", "Pepperoni": "Pepperoni",
+      "Vegetarian": "Vegetariana", "Tuna": "Tonno",
+      "Tricolor (Serrano, rocket & Parmesan)": "Tricolore (Serrano, rucola e parmigiano)",
+      "Chicken": "Pollo", "Beef": "Manzo", "Bacon": "Bacon", "Prawns": "Gamberi",
+      "Mushrooms": "Funghi", "Peppers": "Peperoni", "Onion": "Cipolla",
+      "Pineapple": "Ananas", "Jalapeños": "Jalapeños",
+      "Spaghetti with tomato sauce": "Spaghetti al pomodoro",
+      "Penne Bolognese": "Penne alla bolognese",
+      "Chicken nuggets": "Nugget di pollo",
+    };
+    const IT_TITLE = {
+      dimsum: "Dim Sum", starters: "Antipasti", rice: "Riso", noodles: "Noodles",
+      ricenoodles: "Noodles di riso", pork: "Maiale", chicken: "Pollo", beef: "Manzo",
+      prawns: "Gamberi", duck: "Anatra", sauces: "Salse", specials: "Specialità",
+      veg: "Verdure", desserts: "Dolci",
+      "m-bread": "Pane", "m-soups": "Zuppe", "m-starters": "Antipasti",
+      "m-salads": "Insalate", "m-pasta": "Pasta", "m-paella": "Paella",
+      "m-pizza": "Pizza", "m-extras": "Extra pizza", "m-kids": "Menù bambini",
+    };
+    MENU.forEach((sec) => {
+      if (IT_TITLE[sec.id]) sec.title.it = IT_TITLE[sec.id];
+      if (sec.note) sec.note.it = sec.note.en.replace("All", "Tutti").replace("Todos", "Tutti");
+      sec.items.forEach((it) => {
+        const key = sec.id + ":" + it.n;
+        if (DESC[key]) it.d = DESC[key];
+        if (VEG_KEYS.has(key)) it.v = 1;
+        if (SPICY_KEYS.has(key)) it.spicy = 1;
+        if (!it.it) it.it = IT_NAME[it.en] || it.en;
+      });
+    });
+
+
+    function detectLang() {
+      try {
+        const q = new URLSearchParams(location.search).get("lang");
+        if (q && LANGS.includes(q)) return q;
+        const saved = localStorage.getItem("georges_lang");
+        if (saved && LANGS.includes(saved)) return saved;
+      } catch (_) {}
+      const nav = (navigator.language || "en").slice(0, 2).toLowerCase();
+      if (LANGS.includes(nav)) return nav;
+      return "en";
+    }
+
+    let lang = detectLang();
+    let kitchen = "all";
+
+    function esc(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function norm(s) {
+      return String(s || "")
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+    }
+
+    function applyUI() {
+      const t = UI[lang];
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        const k = el.getAttribute("data-i18n");
+        if (t[k] != null) el.innerHTML = t[k];
+      });
+      const skip = document.querySelector(".skip-link");
+      if (skip && t.skip) skip.textContent = t.skip;
+      document.documentElement.lang = lang;
+      const titles = {
+        en: "George's Restaurant · Menu · Costa Adeje",
+        es: "George's Restaurant · Carta · Costa Adeje",
+        de: "George's Restaurant · Speisekarte · Costa Adeje",
+        fr: "George's Restaurant · Carte · Costa Adeje",
+        it: "George's Restaurant · Menu · Costa Adeje",
+        ca: "George's Restaurant · Carta · Costa Adeje",
+      };
+      document.title = titles[lang] || titles.en;
+      document.querySelectorAll(".lang-bar button").forEach((b) => {
+        const on = b.dataset.lang === lang;
+        b.classList.toggle("active", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      try { localStorage.setItem("georges_lang", lang); } catch (_) {}
+      try {
+        const url = new URL(location.href);
+        url.searchParams.set("lang", lang);
+        history.replaceState(null, "", url);
+      } catch (_) {}
+    }
+
+    function visibleSections() {
+      return MENU.filter((sec) => kitchen === "all" || (sec.kitchen || "asian") === kitchen);
+    }
+
+    function renderCatNav() {
+      const nav = document.getElementById("cat-nav");
+      if (!nav) return;
+      nav.innerHTML = visibleSections().map((sec) => {
+        const title = esc(sec.title[lang] || sec.title.en);
+        return `<a href="#${esc(sec.id)}">${title}</a>`;
+      }).join("");
+    }
+
+    function countKitchen(k) {
+      return MENU.filter((s) => !k || k === "all" || (s.kitchen || "asian") === k)
+        .reduce((n, s) => n + s.items.length, 0);
+    }
+
+    function renderKitNav() {
+      const t = UI[lang];
+      const labels = { all: t.kitAll || "All", asian: t.kitAsian || "Asian", med: t.kitMed || "Mediterranean" };
+      document.querySelectorAll("#kit-nav button").forEach((b) => {
+        const k = b.dataset.kit;
+        const n = countKitchen(k);
+        b.innerHTML = `${esc(labels[k] || k)} <span class="count">${n}</span>`;
+        b.classList.toggle("active", k === kitchen);
+      });
+    }
+
+    function renderMenu() {
+      const t = UI[lang];
+      const spicyLabel = esc(t.spicy || "Spicy");
+      const vegLabel = esc(t.veg || "Vegetarian");
+      const sections = visibleSections();
+      let lastKit = "";
+      document.getElementById("menu-root").innerHTML = sections.map((sec) => {
+        const title = esc(sec.title[lang] || sec.title.en);
+        const note = sec.note ? esc(sec.note[lang] || sec.note.en) : "";
+        const kit = sec.kitchen || "asian";
+        let banner = "";
+        if (kitchen === "all" && kit !== lastKit) {
+          lastKit = kit;
+          banner = `<div class="kitchen-banner">${esc(kit === "med" ? t.bannerMed : t.bannerAsian)}</div>`;
+        }
+        const items = sec.items.map((it) => {
+          const name = esc(it[lang] || it.en);
+          const spicy = it.spicy
+            ? `<span class="spicy" title="${spicyLabel}" aria-label="${spicyLabel}"></span>`
+            : "";
+          const veg = it.v
+            ? `<span class="veg" title="${vegLabel}" aria-label="${vegLabel}">V</span>`
+            : "";
+          const desc = it.d
+            ? `<div class="desc">${esc(it.d[lang] || it.d.en)}</div>`
+            : "";
+          return `<article class="item">
+            <div class="name"><span class="num">${it.n}.</span>${name}${spicy}${veg}</div>
+            <div class="price">${esc(it.p)}&nbsp;€</div>
+            ${desc}
+          </article>`;
+        }).join("");
+        return `${banner}<section class="section" id="${esc(sec.id)}">
+          <div class="section-head">
+            <h2>${title}</h2>
+            ${note ? `<p>${note}</p>` : ""}
+          </div>
+          <div class="items">${items}</div>
+        </section>`;
+      }).join("");
+      renderCatNav();
+      renderKitNav();
+    }
+
+    function setLang(next) {
+      if (!LANGS.includes(next)) return;
+      lang = next;
+      applyUI();
+      renderMenu();
+    }
+
+    document.querySelectorAll(".lang-bar button").forEach((btn) => {
+      btn.addEventListener("click", () => setLang(btn.dataset.lang));
+    });
+
+    document.querySelectorAll("#kit-nav button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        kitchen = btn.dataset.kit || "all";
+        try { localStorage.setItem("georges_kit", kitchen); } catch (_) {}
+        query = (document.getElementById("menu-search") || {}).value || query;
+        renderMenu();
+        applySearchFilter();
+      });
+    });
+
+    try {
+      const savedKit = localStorage.getItem("georges_kit");
+      if (savedKit && ["all", "asian", "med"].includes(savedKit)) kitchen = savedKit;
+    } catch (_) {}
+
+    let query = "";
+
+    function applySearchFilter() {
+      const q = norm(query.trim());
+      const wrap = document.getElementById("search-wrap");
+      if (wrap) wrap.classList.toggle("has-query", !!q);
+      const sections = document.querySelectorAll("#menu-root .section");
+      let any = false;
+      sections.forEach((sec) => {
+        let secAny = false;
+        sec.querySelectorAll(".item").forEach((el) => {
+          const blob = norm(el.textContent || "");
+          const hit = !q || blob.includes(q);
+          el.hidden = !hit;
+          el.classList.toggle("hit-match", !!(q && hit));
+          if (hit) secAny = true;
+        });
+        sec.hidden = !secAny;
+        if (secAny) any = true;
+      });
+      document.querySelectorAll("#menu-root .kitchen-banner").forEach((b) => {
+        const next = b.nextElementSibling;
+        b.hidden = !next || next.hidden;
+      });
+      const empty = document.getElementById("empty-search");
+      const root = document.getElementById("menu-root");
+      if (empty) empty.hidden = !q || any;
+      if (root) root.hidden = !!(q && !any);
+      renderCatNav();
+      if (q) {
+        document.querySelectorAll("#cat-nav a").forEach((a) => {
+          const id = a.getAttribute("href")?.slice(1);
+          const sec = id && document.getElementById(id);
+          a.hidden = !sec || sec.hidden;
+        });
+      }
+    }
+
+    const searchInput = document.getElementById("menu-search");
+    if (searchInput) {
+      searchInput.addEventListener("input", () => {
+        query = searchInput.value || "";
+        applySearchFilter();
+      });
+    }
+    document.getElementById("clear-search")?.addEventListener("click", () => {
+      if (searchInput) searchInput.value = "";
+      query = "";
+      applySearchFilter();
+      searchInput?.focus();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "/" && document.activeElement !== searchInput) {
+        e.preventDefault();
+        searchInput?.focus();
+      }
+      if (e.key === "Escape" && document.activeElement === searchInput) {
+        searchInput.value = "";
+        query = "";
+        applySearchFilter();
+        searchInput.blur();
+      }
+    });
+
+    function updateOpenBadge() {
+      const el = document.getElementById("open-badge");
+      if (!el) return;
+      const t = UI[lang] || UI.en;
+      let open = false;
+      let soon = false;
+      try {
+        const fmt = new Intl.DateTimeFormat("en-GB", {
+          timeZone: "Atlantic/Canary",
+          hour: "numeric",
+          minute: "numeric",
+          hour12: false,
+        });
+        const parts = Object.fromEntries(fmt.formatToParts(new Date()).map((p) => [p.type, p.value]));
+        const hour = Number(parts.hour);
+        const minute = Number(parts.minute);
+        const mins = hour * 60 + minute;
+        // Daily 12:00–00:00 (midnight). 00:00–11:59 closed, 12:00–23:59 open.
+        open = mins >= 12 * 60;
+        soon = open && mins >= 23 * 60;
+      } catch (_) {
+        open = false;
+      }
+      el.classList.toggle("is-open", open && !soon);
+      el.classList.toggle("is-soon", !!soon);
+      el.classList.toggle("is-closed", !open);
+      el.textContent = !open
+        ? (t.opensAt || t.closedNow || "Closed now")
+        : soon
+          ? (t.closesSoon || t.openNow)
+          : (t.openNow || "Open now");
+    }
+
+    function publicUrl() {
+      try {
+        if (location.origin && !/127\.0\.0\.1|localhost/.test(location.origin)) {
+          return location.origin + "/";
+        }
+      } catch (_) {}
+      return CANONICAL_HOST;
+    }
+
+    function showToast(msg) {
+      const el = document.getElementById("toast");
+      if (!el) return;
+      el.textContent = msg;
+      el.classList.add("show");
+      clearTimeout(showToast._t);
+      showToast._t = setTimeout(() => el.classList.remove("show"), 2200);
+    }
+
+    async function shareMenu() {
+      const t = UI[lang] || UI.en;
+      const url = publicUrl();
+      const data = {
+        title: t.shareTitle || "George's Restaurant menu",
+        text: t.shareText || "George's Restaurant · Costa Adeje",
+        url,
+      };
+      try {
+        if (navigator.share) {
+          await navigator.share(data);
+          return;
+        }
+      } catch (e) {
+        if (e && e.name === "AbortError") return;
+      }
+      try {
+        await navigator.clipboard.writeText(url);
+        showToast(t.copied || "Link copied");
+      } catch (_) {
+        showToast(url);
+      }
+    }
+
+    async function copyLink() {
+      const t = UI[lang] || UI.en;
+      const url = publicUrl();
+      try {
+        await navigator.clipboard.writeText(url);
+        showToast(t.copied || "Link copied");
+      } catch (_) {
+        showToast(url);
+      }
+    }
+
+    document.getElementById("btn-share")?.addEventListener("click", shareMenu);
+    document.getElementById("fab-share")?.addEventListener("click", shareMenu);
+    document.getElementById("btn-copy")?.addEventListener("click", copyLink);
+
+    const waMsg = encodeURIComponent("Hola George's Restaurant · Reserva / Reservation");
+    const waHref = "https://wa.me/34922717613?text=" + waMsg;
+    const wa = document.getElementById("wa-link");
+    if (wa) wa.href = waHref;
+    const fabWa = document.getElementById("fab-wa");
+    if (fabWa) fabWa.href = waHref;
+
+    const toTop = document.getElementById("to-top");
+    window.addEventListener("scroll", () => {
+      if (!toTop) return;
+      toTop.classList.toggle("show", window.scrollY > 480);
+    }, { passive: true });
+    toTop?.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+
+    let catObserver;
+    function observeSections() {
+      if (catObserver) catObserver.disconnect();
+      const links = [...document.querySelectorAll("#cat-nav a")];
+      if (!links.length || !("IntersectionObserver" in window)) return;
+      catObserver = new IntersectionObserver((entries) => {
+        entries.forEach((en) => {
+          if (!en.isIntersecting) return;
+          const id = en.target.id;
+          links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === "#" + id));
+        });
+      }, { rootMargin: "-40% 0px -50% 0px", threshold: 0.01 });
+      document.querySelectorAll("#menu-root .section").forEach((s) => catObserver.observe(s));
+    }
+
+    const _renderMenu = renderMenu;
+    renderMenu = function () {
+      _renderMenu();
+      applySearchFilter();
+      observeSections();
+      updateOpenBadge();
+    };
+
+    const qrShare = document.getElementById("qr-share");
+    if (qrShare) qrShare.href = publicUrl();
+
+    (function syncSeoUrl() {
+      const u = publicUrl();
+      document.getElementById("canonical-link")?.setAttribute("href", u);
+      document.getElementById("og-url")?.setAttribute("content", u);
+      try {
+        const ld = document.getElementById("jsonld");
+        if (ld) {
+          const data = JSON.parse(ld.textContent);
+          data.url = u;
+          if (data.image && !String(data.image).startsWith("http")) data.image = u.replace(/\/$/, "") + "/assets/logo-on-black.png";
+          if (data.hasMenu) data.hasMenu = u + "#menu-root";
+          ld.textContent = JSON.stringify(data);
+        }
+      } catch (_) {}
+    })();
+
+    const _applyUI = applyUI;
+    applyUI = function () {
+      _applyUI();
+      const t = UI[lang];
+      const inp = document.getElementById("menu-search");
+      if (inp && t.searchPh) inp.placeholder = t.searchPh;
+      const lab = document.querySelector('label[for="menu-search"]');
+      if (lab && t.searchLabel) lab.textContent = t.searchLabel;
+      updateOpenBadge();
+    };
+
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./sw.js").catch(() => {});
+    }
+
+    applyUI();
+    renderMenu();
+    updateOpenBadge();
+    setInterval(updateOpenBadge, 60 * 1000);
+  </script>
+</body>
+</html>

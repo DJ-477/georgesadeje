@@ -1,0 +1,27 @@
+{
+  "name": "George's Restaurant · Menu",
+  "short_name": "George's Menu",
+  "description": "Digital menu — George's Restaurant, El Madroñal, Costa Adeje. Chinese & Mediterranean.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0808",
+  "theme_color": "#0a0808",
+  "lang": "en",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/logo-mark.png",
+      "sizes": "171x171",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/logo-on-black.png",
+      "sizes": "871x273",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["food", "lifestyle"]
+}
